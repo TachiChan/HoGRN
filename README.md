@@ -18,7 +18,6 @@ If you want to use our codes in your research, please cite:
   title     = {Explainable Sparse Knowledge Graph Completion via High-order Graph Reasoning Network},
   journal   = {CoRR},
   volume    = {abs/2207.07503},
-  year      = {2022},
-  url       = {https://doi.org/10.48550/arXiv.2207.07503},
+  year      = {2022}
 }
 ```
