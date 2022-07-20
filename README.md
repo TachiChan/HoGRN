@@ -7,7 +7,7 @@ This is our Pytorch implementation for the paper:
 ***The paper is under review now, and we will release our codes upon acceptance.***
 
 ## Citation 
-If you want to use our codes and datasets in your research, please cite:
+If you want to use our codes in your research, please cite:
 ```
 @article{HoGRN,
   author    = {Weijian Chen and
