@@ -32,19 +32,11 @@ The code has been tested running under Python 3.6.8. The required packages are a
 * ordered-set == 3.1
 
 ## Training and Evaluation
-The main file is 'run.py', and description of commands has been clearly stated in this code (see the 'parser' function).
-We provide a series of scripts in the "sh" folder to reproduce the results in our paper, which can be run with commands like ```sh sh/wdsinger_conve.sh```.
-
-
-Running commands of HoGRN are as follows:
-* NELL23K, HoGRN
-```
-CUDA_VISIBLE_DEVICES=0 python run.py -data 'WD-singer' -rel_reason -batch 128 -init_dim 100 -gcn_dim 100 -embed_dim 100 -gcn_layer 2 -gcn_drop 0.3 -score_func 'conve' -chan_drop 0.2 -rel_mask 0.2 -rel_norm -hid_drop 0.1
-```
-
-Moreover, we provide relevant checkpoint files to quickly reproduce our experimental results through commands like ```sh sh/wdsinger_conve_restore.sh```. 
+The primary script is 'run.py', which includes a clear documentation of the commands within its 'parser' function.
+For the reproduction of the results presented in our paper, we have provided a set of scripts in the 'sh' directory. These can be executed with commands such as ```sh sh/wdsinger_conve.sh```. 
+Additionally, to facilitate the swift replication of our experimental outcomes, we have made available pertinent checkpoint files, which can be utilized via commands like ```sh sh/wdsinger_conve_restore.sh```.
 The full checkpoint files can be downloaded [here](https://drive.google.com/file/d/1Oo81Ge15FS2S5zHYtqb4jH4nn6HZegfA/view?usp=drive_link).
-
+ 
 ## Acknowledgment
 Thanks to the following implementations:
 * [CompGCN](https://github.com/malllabiisc/CompGCN)
