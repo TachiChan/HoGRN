@@ -1,5 +1,5 @@
 # HoGRN
-Thank you for your interest in our work!
+Thanks for your interest in our work!
 This is our Pytorch implementation for the paper:
 
 >Weijian Chen, Yixn Cao, Fuli Feng, Xiangnan He, and Yongdong Zhang. [HoGRN: Explainable Sparse Knowledge Graph Completion via High-order Graph Reasoning Network](https://arxiv.org/abs/2207.07503). In IEEE Transactions on Knowledge and Data Engineering.
