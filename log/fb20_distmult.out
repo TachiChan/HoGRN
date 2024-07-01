@@ -1,0 +1,2676 @@
+2023-04-21 05:24:03,182 - [INFO] - {'name': 'fb20_distmult', 'dataset': 'FB15K-237-20', 'model': 'hogrn', 'score_func': 'distmult', 'opn': 'mult', 'batch_size': 256, 'max_epochs': 9999, 'gamma': 40, 'gpu': '0', 'l2': 0, 'lr': 0.001, 'lbl_smooth': 0.1, 'num_workers': 2, 'seed': 41504, 'restore': False, 'bias': False, 'rel_reason': True, 'pre_reason': False, 'reason_type': 'mixdrop', 'act_type': 'tanh', 'rel_norm': True, 'init_dim': 100, 'gcn_dim': 100, 'embed_dim': 100, 'gcn_layer': 2, 'dropout': 0.2, 'hid_drop': 0.3, 'relmix_dim': 400, 'chamix_dim': 400, 'rel_mask': 0, 'chan_drop': 0, 'edge_drop': 0, 'temperature': 1, 'sim_decay': 0, 'rel_drop': 0, 'hid_drop2': 0.3, 'feat_drop': 0.3, 'k_w': 10, 'k_h': 10, 'num_filt': 32, 'ker_sz': 3, 'log_dir': './log/', 'config_dir': './config/'}
+{'act_type': 'tanh',
+ 'batch_size': 256,
+ 'bias': False,
+ 'chamix_dim': 400,
+ 'chan_drop': 0,
+ 'config_dir': './config/',
+ 'dataset': 'FB15K-237-20',
+ 'dropout': 0.2,
+ 'edge_drop': 0,
+ 'embed_dim': 100,
+ 'feat_drop': 0.3,
+ 'gamma': 40,
+ 'gcn_dim': 100,
+ 'gcn_layer': 2,
+ 'gpu': '0',
+ 'hid_drop': 0.3,
+ 'hid_drop2': 0.3,
+ 'init_dim': 100,
+ 'k_h': 10,
+ 'k_w': 10,
+ 'ker_sz': 3,
+ 'l2': 0,
+ 'lbl_smooth': 0.1,
+ 'log_dir': './log/',
+ 'lr': 0.001,
+ 'max_epochs': 9999,
+ 'model': 'hogrn',
+ 'name': 'fb20_distmult',
+ 'num_filt': 32,
+ 'num_workers': 2,
+ 'opn': 'mult',
+ 'pre_reason': False,
+ 'reason_type': 'mixdrop',
+ 'rel_drop': 0,
+ 'rel_mask': 0,
+ 'rel_norm': True,
+ 'rel_reason': True,
+ 'relmix_dim': 400,
+ 'restore': False,
+ 'score_func': 'distmult',
+ 'seed': 41504,
+ 'sim_decay': 0,
+ 'temperature': 1}
+Dataset:  FB15K-237-20
+NUM_ENT:  13166
+NUM_REL:  237
+Model have 2.3005M paramerters in total
+########
+2023-04-21 05:24:18,570 - [INFO] - [Epoch:0]:  Training Loss:0.31
+
+Time cost in one epoch for training: 0.1845s
+########
+2023-04-21 05:24:29,139 - [INFO] - [Epoch:1]:  Training Loss:0.03134
+
+Time cost in one epoch for training: 0.1761s
+########
+2023-04-21 05:24:39,695 - [INFO] - [Epoch:2]:  Training Loss:0.009236
+
+Time cost in one epoch for training: 0.1760s
+########
+2023-04-21 05:24:50,343 - [INFO] - [Epoch:3]:  Training Loss:0.006424
+
+Time cost in one epoch for training: 0.1774s
+########
+2023-04-21 05:25:01,026 - [INFO] - [Epoch:4]:  Training Loss:0.004893
+
+Time cost in one epoch for training: 0.1781s
+########
+2023-04-21 05:25:11,708 - [INFO] - [Epoch:5]:  Training Loss:0.004322
+
+Time cost in one epoch for training: 0.1780s
+########
+2023-04-21 05:25:22,216 - [INFO] - [Epoch:6]:  Training Loss:0.00388
+
+Time cost in one epoch for training: 0.1751s
+########
+2023-04-21 05:25:32,796 - [INFO] - [Epoch:7]:  Training Loss:0.003753
+
+Time cost in one epoch for training: 0.1763s
+########
+2023-04-21 05:25:43,528 - [INFO] - [Epoch:8]:  Training Loss:0.003593
+
+Time cost in one epoch for training: 0.1789s
+########
+2023-04-21 05:25:54,127 - [INFO] - [Epoch:9]:  Training Loss:0.00347
+
+Time cost in one epoch for training: 0.1766s
+########
+2023-04-21 05:26:04,772 - [INFO] - [Epoch:10]:  Training Loss:0.003322
+
+Time cost in one epoch for training: 0.1774s
+########
+2023-04-21 05:26:15,389 - [INFO] - [Epoch:11]:  Training Loss:0.003236
+
+Time cost in one epoch for training: 0.1770s
+########
+2023-04-21 05:26:26,042 - [INFO] - [Epoch:12]:  Training Loss:0.003109
+
+Time cost in one epoch for training: 0.1775s
+########
+2023-04-21 05:26:36,577 - [INFO] - [Epoch:13]:  Training Loss:0.00307
+
+Time cost in one epoch for training: 0.1756s
+########
+2023-04-21 05:26:47,191 - [INFO] - [Epoch:14]:  Training Loss:0.003069
+
+Time cost in one epoch for training: 0.1769s
+########
+2023-04-21 05:26:57,793 - [INFO] - [Epoch:15]:  Training Loss:0.002769
+
+Time cost in one epoch for training: 0.1767s
+########
+2023-04-21 05:27:08,510 - [INFO] - [Epoch:16]:  Training Loss:0.002621
+
+Time cost in one epoch for training: 0.1786s
+########
+2023-04-21 05:27:19,141 - [INFO] - [Epoch:17]:  Training Loss:0.002524
+
+Time cost in one epoch for training: 0.1772s
+########
+2023-04-21 05:27:29,999 - [INFO] - [Epoch:18]:  Training Loss:0.002418
+
+Time cost in one epoch for training: 0.1810s
+########
+2023-04-21 05:27:40,675 - [INFO] - [Epoch:19]:  Training Loss:0.002361
+
+Time cost in one epoch for training: 0.1779s
+########
+2023-04-21 05:27:51,337 - [INFO] - [Epoch:20]:  Training Loss:0.002303
+
+Time cost in one epoch for training: 0.1777s
+########
+2023-04-21 05:28:02,048 - [INFO] - [Epoch:21]:  Training Loss:0.00226
+
+Time cost in one epoch for training: 0.1785s
+########
+2023-04-21 05:28:12,646 - [INFO] - [Epoch:22]:  Training Loss:0.002267
+
+Time cost in one epoch for training: 0.1766s
+########
+2023-04-21 05:28:23,308 - [INFO] - [Epoch:23]:  Training Loss:0.002483
+
+Time cost in one epoch for training: 0.1777s
+########
+2023-04-21 05:28:33,923 - [INFO] - [Epoch:24]:  Training Loss:0.00228
+
+Time cost in one epoch for training: 0.1769s
+########
+2023-04-21 05:28:44,386 - [INFO] - [Epoch:25]:  Training Loss:0.002237
+
+Time cost in one epoch for training: 0.1744s
+########
+2023-04-21 05:28:53,984 - [INFO] - [Epoch:26]:  Training Loss:0.002174
+
+Time cost in one epoch for training: 0.1600s
+########
+2023-04-21 05:29:04,866 - [INFO] - [Epoch:27]:  Training Loss:0.002149
+
+Time cost in one epoch for training: 0.1814s
+########
+2023-04-21 05:29:15,810 - [INFO] - [Epoch:28]:  Training Loss:0.002138
+
+Time cost in one epoch for training: 0.1824s
+########
+2023-04-21 05:29:26,684 - [INFO] - [Epoch:29]:  Training Loss:0.002114
+
+Time cost in one epoch for training: 0.1813s
+########
+2023-04-21 05:29:37,408 - [INFO] - [Epoch:30]:  Training Loss:0.002106
+
+Time cost in one epoch for training: 0.1787s
+########
+2023-04-21 05:29:48,293 - [INFO] - [Epoch:31]:  Training Loss:0.002101
+
+Time cost in one epoch for training: 0.1814s
+########
+2023-04-21 05:29:59,136 - [INFO] - [Epoch:32]:  Training Loss:0.002091
+
+Time cost in one epoch for training: 0.1807s
+########
+2023-04-21 05:30:09,973 - [INFO] - [Epoch:33]:  Training Loss:0.002075
+
+Time cost in one epoch for training: 0.1806s
+########
+2023-04-21 05:30:20,827 - [INFO] - [Epoch:34]:  Training Loss:0.00207
+
+Time cost in one epoch for training: 0.1809s
+########
+2023-04-21 05:30:31,926 - [INFO] - [Epoch:35]:  Training Loss:0.002075
+
+Time cost in one epoch for training: 0.1850s
+########
+2023-04-21 05:30:42,784 - [INFO] - [Epoch:36]:  Training Loss:0.002066
+
+Time cost in one epoch for training: 0.1810s
+########
+2023-04-21 05:30:53,664 - [INFO] - [Epoch:37]:  Training Loss:0.00211
+
+Time cost in one epoch for training: 0.1813s
+########
+2023-04-21 05:31:04,426 - [INFO] - [Epoch:38]:  Training Loss:0.002095
+
+Time cost in one epoch for training: 0.1794s
+########
+2023-04-21 05:31:15,358 - [INFO] - [Epoch:39]:  Training Loss:0.002059
+
+Time cost in one epoch for training: 0.1822s
+########
+2023-04-21 05:31:26,238 - [INFO] - [Epoch:40]:  Training Loss:0.002051
+
+Time cost in one epoch for training: 0.1813s
+########
+2023-04-21 05:31:37,001 - [INFO] - [Epoch:41]:  Training Loss:0.002044
+
+Time cost in one epoch for training: 0.1794s
+########
+2023-04-21 05:31:47,865 - [INFO] - [Epoch:42]:  Training Loss:0.002051
+
+Time cost in one epoch for training: 0.1810s
+########
+2023-04-21 05:31:58,609 - [INFO] - [Epoch:43]:  Training Loss:0.002084
+
+Time cost in one epoch for training: 0.1791s
+########
+2023-04-21 05:32:09,355 - [INFO] - [Epoch:44]:  Training Loss:0.002066
+
+Time cost in one epoch for training: 0.1791s
+########
+2023-04-21 05:32:20,209 - [INFO] - [Epoch:45]:  Training Loss:0.002024
+
+Time cost in one epoch for training: 0.1809s
+########
+2023-04-21 05:32:31,035 - [INFO] - [Epoch:46]:  Training Loss:0.002011
+
+Time cost in one epoch for training: 0.1804s
+########
+2023-04-21 05:32:41,835 - [INFO] - [Epoch:47]:  Training Loss:0.002002
+
+Time cost in one epoch for training: 0.1800s
+########
+2023-04-21 05:32:52,582 - [INFO] - [Epoch:48]:  Training Loss:0.001995
+
+Time cost in one epoch for training: 0.1791s
+########
+2023-04-21 05:33:03,169 - [INFO] - [Epoch:49]:  Training Loss:0.002001
+
+Time cost in one epoch for training: 0.1764s
+########
+2023-04-21 05:33:14,075 - [INFO] - [Epoch:50]:  Training Loss:0.002003
+
+Time cost in one epoch for training: 0.1818s
+########
+2023-04-21 05:33:24,934 - [INFO] - [Epoch:51]:  Training Loss:0.001987
+
+Time cost in one epoch for training: 0.1810s
+########
+2023-04-21 05:33:35,702 - [INFO] - [Epoch:52]:  Training Loss:0.001961
+
+Time cost in one epoch for training: 0.1795s
+########
+2023-04-21 05:33:46,602 - [INFO] - [Epoch:53]:  Training Loss:0.001959
+
+Time cost in one epoch for training: 0.1817s
+########
+2023-04-21 05:33:57,550 - [INFO] - [Epoch:54]:  Training Loss:0.00195
+
+Time cost in one epoch for training: 0.1824s
+########
+2023-04-21 05:34:08,413 - [INFO] - [Epoch:55]:  Training Loss:0.001932
+
+Time cost in one epoch for training: 0.1810s
+########
+2023-04-21 05:34:19,216 - [INFO] - [Epoch:56]:  Training Loss:0.002005
+
+Time cost in one epoch for training: 0.1801s
+########
+2023-04-21 05:34:29,905 - [INFO] - [Epoch:57]:  Training Loss:0.001979
+
+Time cost in one epoch for training: 0.1781s
+########
+2023-04-21 05:34:40,701 - [INFO] - [Epoch:58]:  Training Loss:0.00195
+
+Time cost in one epoch for training: 0.1799s
+########
+2023-04-21 05:34:51,623 - [INFO] - [Epoch:59]:  Training Loss:0.001936
+
+Time cost in one epoch for training: 0.1820s
+########
+2023-04-21 05:35:02,357 - [INFO] - [Epoch:60]:  Training Loss:0.001937
+
+Time cost in one epoch for training: 0.1789s
+########
+2023-04-21 05:35:13,101 - [INFO] - [Epoch:61]:  Training Loss:0.001937
+
+Time cost in one epoch for training: 0.1791s
+########
+2023-04-21 05:35:23,773 - [INFO] - [Epoch:62]:  Training Loss:0.0019
+
+Time cost in one epoch for training: 0.1779s
+########
+2023-04-21 05:35:34,599 - [INFO] - [Epoch:63]:  Training Loss:0.001896
+
+Time cost in one epoch for training: 0.1804s
+########
+2023-04-21 05:35:45,325 - [INFO] - [Epoch:64]:  Training Loss:0.001901
+
+Time cost in one epoch for training: 0.1788s
+########
+2023-04-21 05:35:56,010 - [INFO] - [Epoch:65]:  Training Loss:0.001894
+
+Time cost in one epoch for training: 0.1781s
+########
+2023-04-21 05:36:06,798 - [INFO] - [Epoch:66]:  Training Loss:0.00188
+
+Time cost in one epoch for training: 0.1798s
+########
+2023-04-21 05:36:17,646 - [INFO] - [Epoch:67]:  Training Loss:0.001879
+
+Time cost in one epoch for training: 0.1808s
+########
+2023-04-21 05:36:28,412 - [INFO] - [Epoch:68]:  Training Loss:0.00187
+
+Time cost in one epoch for training: 0.1794s
+########
+2023-04-21 05:36:39,159 - [INFO] - [Epoch:69]:  Training Loss:0.001885
+
+Time cost in one epoch for training: 0.1791s
+########
+2023-04-21 05:36:49,952 - [INFO] - [Epoch:70]:  Training Loss:0.001895
+
+Time cost in one epoch for training: 0.1799s
+########
+2023-04-21 05:37:00,861 - [INFO] - [Epoch:71]:  Training Loss:0.001864
+
+Time cost in one epoch for training: 0.1818s
+########
+2023-04-21 05:37:11,620 - [INFO] - [Epoch:72]:  Training Loss:0.001862
+
+Time cost in one epoch for training: 0.1793s
+########
+2023-04-21 05:37:22,305 - [INFO] - [Epoch:73]:  Training Loss:0.001885
+
+Time cost in one epoch for training: 0.1781s
+########
+2023-04-21 05:37:33,163 - [INFO] - [Epoch:74]:  Training Loss:0.001892
+
+Time cost in one epoch for training: 0.1810s
+########
+2023-04-21 05:37:44,025 - [INFO] - [Epoch:75]:  Training Loss:0.00186
+
+Time cost in one epoch for training: 0.1810s
+########
+2023-04-21 05:37:54,762 - [INFO] - [Epoch:76]:  Training Loss:0.001881
+
+Time cost in one epoch for training: 0.1789s
+########
+2023-04-21 05:38:05,458 - [INFO] - [Epoch:77]:  Training Loss:0.00186
+
+Time cost in one epoch for training: 0.1783s
+########
+2023-04-21 05:38:16,343 - [INFO] - [Epoch:78]:  Training Loss:0.001879
+
+Time cost in one epoch for training: 0.1814s
+########
+2023-04-21 05:38:27,022 - [INFO] - [Epoch:79]:  Training Loss:0.001852
+
+Time cost in one epoch for training: 0.1780s
+########
+2023-04-21 05:38:37,762 - [INFO] - [Epoch:80]:  Training Loss:0.001842
+
+Time cost in one epoch for training: 0.1790s
+########
+2023-04-21 05:38:48,431 - [INFO] - [Epoch:81]:  Training Loss:0.001844
+
+Time cost in one epoch for training: 0.1778s
+########
+2023-04-21 05:38:59,188 - [INFO] - [Epoch:82]:  Training Loss:0.001837
+
+Time cost in one epoch for training: 0.1793s
+########
+2023-04-21 05:39:10,011 - [INFO] - [Epoch:83]:  Training Loss:0.001824
+
+Time cost in one epoch for training: 0.1804s
+########
+2023-04-21 05:39:20,656 - [INFO] - [Epoch:84]:  Training Loss:0.001832
+
+Time cost in one epoch for training: 0.1774s
+########
+2023-04-21 05:39:31,529 - [INFO] - [Epoch:85]:  Training Loss:0.001835
+
+Time cost in one epoch for training: 0.1812s
+########
+2023-04-21 05:39:42,410 - [INFO] - [Epoch:86]:  Training Loss:0.001818
+
+Time cost in one epoch for training: 0.1813s
+########
+2023-04-21 05:39:53,201 - [INFO] - [Epoch:87]:  Training Loss:0.001817
+
+Time cost in one epoch for training: 0.1798s
+########
+2023-04-21 05:40:04,110 - [INFO] - [Epoch:88]:  Training Loss:0.001823
+
+Time cost in one epoch for training: 0.1818s
+########
+2023-04-21 05:40:14,941 - [INFO] - [Epoch:89]:  Training Loss:0.001812
+
+Time cost in one epoch for training: 0.1805s
+########
+2023-04-21 05:40:25,665 - [INFO] - [Epoch:90]:  Training Loss:0.001804
+
+Time cost in one epoch for training: 0.1787s
+########
+2023-04-21 05:40:36,426 - [INFO] - [Epoch:91]:  Training Loss:0.001805
+
+Time cost in one epoch for training: 0.1793s
+########
+2023-04-21 05:40:47,201 - [INFO] - [Epoch:92]:  Training Loss:0.001824
+
+Time cost in one epoch for training: 0.1796s
+########
+2023-04-21 05:40:58,129 - [INFO] - [Epoch:93]:  Training Loss:0.001814
+
+Time cost in one epoch for training: 0.1821s
+########
+2023-04-21 05:41:08,882 - [INFO] - [Epoch:94]:  Training Loss:0.0018
+
+Time cost in one epoch for training: 0.1792s
+########
+2023-04-21 05:41:19,750 - [INFO] - [Epoch:95]:  Training Loss:0.001793
+
+Time cost in one epoch for training: 0.1811s
+########
+2023-04-21 05:41:30,516 - [INFO] - [Epoch:96]:  Training Loss:0.001811
+
+Time cost in one epoch for training: 0.1794s
+########
+2023-04-21 05:41:41,243 - [INFO] - [Epoch:97]:  Training Loss:0.001806
+
+Time cost in one epoch for training: 0.1788s
+########
+2023-04-21 05:41:52,158 - [INFO] - [Epoch:98]:  Training Loss:0.001801
+
+Time cost in one epoch for training: 0.1819s
+########
+2023-04-21 05:42:03,063 - [INFO] - [Epoch:99]:  Training Loss:0.001784
+
+Time cost in one epoch for training: 0.1817s
+########
+2023-04-21 05:42:13,869 - [INFO] - [Epoch:100]:  Training Loss:0.001781
+
+Time cost in one epoch for training: 0.1801s
+########
+2023-04-21 05:42:24,622 - [INFO] - [Epoch:101]:  Training Loss:0.001797
+
+Time cost in one epoch for training: 0.1792s
+########
+2023-04-21 05:42:35,393 - [INFO] - [Epoch:102]:  Training Loss:0.001804
+
+Time cost in one epoch for training: 0.1795s
+########
+2023-04-21 05:42:46,360 - [INFO] - [Epoch:103]:  Training Loss:0.00179
+
+Time cost in one epoch for training: 0.1828s
+########
+2023-04-21 05:42:57,293 - [INFO] - [Epoch:104]:  Training Loss:0.001785
+
+Time cost in one epoch for training: 0.1822s
+########
+2023-04-21 05:43:08,113 - [INFO] - [Epoch:105]:  Training Loss:0.001795
+
+Time cost in one epoch for training: 0.1803s
+########
+2023-04-21 05:43:18,962 - [INFO] - [Epoch:106]:  Training Loss:0.001784
+
+Time cost in one epoch for training: 0.1808s
+########
+2023-04-21 05:43:29,728 - [INFO] - [Epoch:107]:  Training Loss:0.001787
+
+Time cost in one epoch for training: 0.1794s
+########
+2023-04-21 05:43:40,629 - [INFO] - [Epoch:108]:  Training Loss:0.001783
+
+Time cost in one epoch for training: 0.1817s
+########
+2023-04-21 05:43:51,554 - [INFO] - [Epoch:109]:  Training Loss:0.001769
+
+Time cost in one epoch for training: 0.1821s
+########
+2023-04-21 05:44:02,363 - [INFO] - [Epoch:110]:  Training Loss:0.00177
+
+Time cost in one epoch for training: 0.1801s
+########
+2023-04-21 05:44:13,184 - [INFO] - [Epoch:111]:  Training Loss:0.001771
+
+Time cost in one epoch for training: 0.1803s
+########
+2023-04-21 05:44:23,987 - [INFO] - [Epoch:112]:  Training Loss:0.00177
+
+Time cost in one epoch for training: 0.1801s
+########
+2023-04-21 05:44:34,688 - [INFO] - [Epoch:113]:  Training Loss:0.001767
+
+Time cost in one epoch for training: 0.1784s
+########
+2023-04-21 05:44:45,520 - [INFO] - [Epoch:114]:  Training Loss:0.001767
+
+Time cost in one epoch for training: 0.1805s
+########
+2023-04-21 05:44:56,421 - [INFO] - [Epoch:115]:  Training Loss:0.001765
+
+Time cost in one epoch for training: 0.1817s
+########
+2023-04-21 05:45:07,247 - [INFO] - [Epoch:116]:  Training Loss:0.00176
+
+Time cost in one epoch for training: 0.1805s
+########
+2023-04-21 05:45:18,159 - [INFO] - [Epoch:117]:  Training Loss:0.001791
+
+Time cost in one epoch for training: 0.1819s
+########
+2023-04-21 05:45:28,975 - [INFO] - [Epoch:118]:  Training Loss:0.001767
+
+Time cost in one epoch for training: 0.1803s
+########
+2023-04-21 05:45:39,967 - [INFO] - [Epoch:119]:  Training Loss:0.001763
+
+Time cost in one epoch for training: 0.1832s
+########
+2023-04-21 05:45:50,824 - [INFO] - [Epoch:120]:  Training Loss:0.001754
+
+Time cost in one epoch for training: 0.1810s
+########
+2023-04-21 05:46:01,400 - [INFO] - [Epoch:121]:  Training Loss:0.001758
+
+Time cost in one epoch for training: 0.1763s
+########
+2023-04-21 05:46:12,066 - [INFO] - [Epoch:122]:  Training Loss:0.001751
+
+Time cost in one epoch for training: 0.1777s
+########
+2023-04-21 05:46:22,860 - [INFO] - [Epoch:123]:  Training Loss:0.001747
+
+Time cost in one epoch for training: 0.1799s
+########
+2023-04-21 05:46:33,707 - [INFO] - [Epoch:124]:  Training Loss:0.001751
+
+Time cost in one epoch for training: 0.1808s
+########
+2023-04-21 05:46:44,363 - [INFO] - [Epoch:125]:  Training Loss:0.001745
+
+Time cost in one epoch for training: 0.1776s
+########
+2023-04-21 05:46:55,197 - [INFO] - [Epoch:126]:  Training Loss:0.001753
+
+Time cost in one epoch for training: 0.1806s
+########
+2023-04-21 05:47:06,000 - [INFO] - [Epoch:127]:  Training Loss:0.001746
+
+Time cost in one epoch for training: 0.1800s
+########
+2023-04-21 05:47:16,793 - [INFO] - [Epoch:128]:  Training Loss:0.001758
+
+Time cost in one epoch for training: 0.1799s
+########
+2023-04-21 05:47:27,643 - [INFO] - [Epoch:129]:  Training Loss:0.001748
+
+Time cost in one epoch for training: 0.1808s
+########
+2023-04-21 05:47:38,532 - [INFO] - [Epoch:130]:  Training Loss:0.001738
+
+Time cost in one epoch for training: 0.1815s
+########
+2023-04-21 05:47:49,467 - [INFO] - [Epoch:131]:  Training Loss:0.001742
+
+Time cost in one epoch for training: 0.1822s
+########
+2023-04-21 05:48:00,321 - [INFO] - [Epoch:132]:  Training Loss:0.001742
+
+Time cost in one epoch for training: 0.1809s
+########
+2023-04-21 05:48:11,244 - [INFO] - [Epoch:133]:  Training Loss:0.001738
+
+Time cost in one epoch for training: 0.1821s
+########
+2023-04-21 05:48:21,943 - [INFO] - [Epoch:134]:  Training Loss:0.001729
+
+Time cost in one epoch for training: 0.1783s
+########
+2023-04-21 05:48:32,750 - [INFO] - [Epoch:135]:  Training Loss:0.001732
+
+Time cost in one epoch for training: 0.1801s
+########
+2023-04-21 05:48:43,698 - [INFO] - [Epoch:136]:  Training Loss:0.001726
+
+Time cost in one epoch for training: 0.1825s
+########
+2023-04-21 05:48:54,532 - [INFO] - [Epoch:137]:  Training Loss:0.001743
+
+Time cost in one epoch for training: 0.1806s
+########
+2023-04-21 05:49:05,459 - [INFO] - [Epoch:138]:  Training Loss:0.001734
+
+Time cost in one epoch for training: 0.1821s
+########
+2023-04-21 05:49:16,233 - [INFO] - [Epoch:139]:  Training Loss:0.001733
+
+Time cost in one epoch for training: 0.1796s
+########
+2023-04-21 05:49:27,111 - [INFO] - [Epoch:140]:  Training Loss:0.001729
+
+Time cost in one epoch for training: 0.1813s
+########
+2023-04-21 05:49:37,919 - [INFO] - [Epoch:141]:  Training Loss:0.001725
+
+Time cost in one epoch for training: 0.1801s
+########
+2023-04-21 05:49:48,860 - [INFO] - [Epoch:142]:  Training Loss:0.00172
+
+Time cost in one epoch for training: 0.1823s
+########
+2023-04-21 05:49:59,684 - [INFO] - [Epoch:143]:  Training Loss:0.001718
+
+Time cost in one epoch for training: 0.1804s
+########
+2023-04-21 05:50:10,586 - [INFO] - [Epoch:144]:  Training Loss:0.00173
+
+Time cost in one epoch for training: 0.1817s
+########
+2023-04-21 05:50:21,430 - [INFO] - [Epoch:145]:  Training Loss:0.001718
+
+Time cost in one epoch for training: 0.1807s
+########
+2023-04-21 05:50:32,323 - [INFO] - [Epoch:146]:  Training Loss:0.001728
+
+Time cost in one epoch for training: 0.1816s
+########
+2023-04-21 05:50:43,183 - [INFO] - [Epoch:147]:  Training Loss:0.001722
+
+Time cost in one epoch for training: 0.1810s
+########
+2023-04-21 05:50:53,986 - [INFO] - [Epoch:148]:  Training Loss:0.001723
+
+Time cost in one epoch for training: 0.1800s
+########
+2023-04-21 05:51:04,698 - [INFO] - [Epoch:149]:  Training Loss:0.001709
+
+Time cost in one epoch for training: 0.1785s
+########
+2023-04-21 05:51:15,547 - [INFO] - [Epoch:150]:  Training Loss:0.001706
+
+Time cost in one epoch for training: 0.1808s
+########
+2023-04-21 05:51:26,542 - [INFO] - [Epoch:151]:  Training Loss:0.001715
+
+Time cost in one epoch for training: 0.1833s
+########
+2023-04-21 05:51:37,354 - [INFO] - [Epoch:152]:  Training Loss:0.001713
+
+Time cost in one epoch for training: 0.1802s
+########
+2023-04-21 05:51:48,064 - [INFO] - [Epoch:153]:  Training Loss:0.001711
+
+Time cost in one epoch for training: 0.1785s
+########
+2023-04-21 05:51:58,801 - [INFO] - [Epoch:154]:  Training Loss:0.001711
+
+Time cost in one epoch for training: 0.1789s
+########
+2023-04-21 05:52:09,770 - [INFO] - [Epoch:155]:  Training Loss:0.001715
+
+Time cost in one epoch for training: 0.1828s
+########
+2023-04-21 05:52:20,546 - [INFO] - [Epoch:156]:  Training Loss:0.001704
+
+Time cost in one epoch for training: 0.1796s
+########
+2023-04-21 05:52:31,268 - [INFO] - [Epoch:157]:  Training Loss:0.001701
+
+Time cost in one epoch for training: 0.1787s
+########
+2023-04-21 05:52:42,020 - [INFO] - [Epoch:158]:  Training Loss:0.001703
+
+Time cost in one epoch for training: 0.1792s
+########
+2023-04-21 05:52:52,868 - [INFO] - [Epoch:159]:  Training Loss:0.001702
+
+Time cost in one epoch for training: 0.1808s
+########
+2023-04-21 05:53:03,654 - [INFO] - [Epoch:160]:  Training Loss:0.001695
+
+Time cost in one epoch for training: 0.1798s
+########
+2023-04-21 05:53:14,330 - [INFO] - [Epoch:161]:  Training Loss:0.001694
+
+Time cost in one epoch for training: 0.1779s
+########
+2023-04-21 05:53:25,274 - [INFO] - [Epoch:162]:  Training Loss:0.001693
+
+Time cost in one epoch for training: 0.1824s
+########
+2023-04-21 05:53:36,035 - [INFO] - [Epoch:163]:  Training Loss:0.001694
+
+Time cost in one epoch for training: 0.1793s
+########
+2023-04-21 05:53:46,861 - [INFO] - [Epoch:164]:  Training Loss:0.001697
+
+Time cost in one epoch for training: 0.1805s
+########
+2023-04-21 05:53:57,766 - [INFO] - [Epoch:165]:  Training Loss:0.001714
+
+Time cost in one epoch for training: 0.1818s
+########
+2023-04-21 05:54:08,579 - [INFO] - [Epoch:166]:  Training Loss:0.001701
+
+Time cost in one epoch for training: 0.1802s
+########
+2023-04-21 05:54:19,457 - [INFO] - [Epoch:167]:  Training Loss:0.001693
+
+Time cost in one epoch for training: 0.1813s
+########
+2023-04-21 05:54:30,503 - [INFO] - [Epoch:168]:  Training Loss:0.0017
+
+Time cost in one epoch for training: 0.1841s
+########
+2023-04-21 05:54:41,260 - [INFO] - [Epoch:169]:  Training Loss:0.001693
+
+Time cost in one epoch for training: 0.1793s
+########
+2023-04-21 05:54:52,088 - [INFO] - [Epoch:170]:  Training Loss:0.001685
+
+Time cost in one epoch for training: 0.1805s
+########
+2023-04-21 05:55:02,824 - [INFO] - [Epoch:171]:  Training Loss:0.00169
+
+Time cost in one epoch for training: 0.1789s
+########
+2023-04-21 05:55:13,474 - [INFO] - [Epoch:172]:  Training Loss:0.001691
+
+Time cost in one epoch for training: 0.1775s
+########
+2023-04-21 05:55:24,160 - [INFO] - [Epoch:173]:  Training Loss:0.001693
+
+Time cost in one epoch for training: 0.1781s
+########
+2023-04-21 05:55:34,871 - [INFO] - [Epoch:174]:  Training Loss:0.001692
+
+Time cost in one epoch for training: 0.1785s
+########
+2023-04-21 05:55:45,501 - [INFO] - [Epoch:175]:  Training Loss:0.001682
+
+Time cost in one epoch for training: 0.1772s
+########
+2023-04-21 05:55:56,159 - [INFO] - [Epoch:176]:  Training Loss:0.001679
+
+Time cost in one epoch for training: 0.1776s
+########
+2023-04-21 05:56:06,878 - [INFO] - [Epoch:177]:  Training Loss:0.001682
+
+Time cost in one epoch for training: 0.1786s
+########
+2023-04-21 05:56:17,516 - [INFO] - [Epoch:178]:  Training Loss:0.00168
+
+Time cost in one epoch for training: 0.1773s
+########
+2023-04-21 05:56:28,180 - [INFO] - [Epoch:179]:  Training Loss:0.001678
+
+Time cost in one epoch for training: 0.1777s
+########
+2023-04-21 05:56:38,755 - [INFO] - [Epoch:180]:  Training Loss:0.001675
+
+Time cost in one epoch for training: 0.1762s
+########
+2023-04-21 05:56:49,276 - [INFO] - [Epoch:181]:  Training Loss:0.001676
+
+Time cost in one epoch for training: 0.1754s
+########
+2023-04-21 05:56:59,892 - [INFO] - [Epoch:182]:  Training Loss:0.001678
+
+Time cost in one epoch for training: 0.1769s
+########
+2023-04-21 05:57:10,517 - [INFO] - [Epoch:183]:  Training Loss:0.001677
+
+Time cost in one epoch for training: 0.1771s
+########
+2023-04-21 05:57:21,223 - [INFO] - [Epoch:184]:  Training Loss:0.001678
+
+Time cost in one epoch for training: 0.1784s
+########
+2023-04-21 05:57:31,834 - [INFO] - [Epoch:185]:  Training Loss:0.001684
+
+Time cost in one epoch for training: 0.1769s
+########
+2023-04-21 05:57:42,427 - [INFO] - [Epoch:186]:  Training Loss:0.001673
+
+Time cost in one epoch for training: 0.1766s
+########
+2023-04-21 05:57:52,990 - [INFO] - [Epoch:187]:  Training Loss:0.00167
+
+Time cost in one epoch for training: 0.1760s
+########
+2023-04-21 05:58:03,761 - [INFO] - [Epoch:188]:  Training Loss:0.001671
+
+Time cost in one epoch for training: 0.1795s
+########
+2023-04-21 05:58:14,255 - [INFO] - [Epoch:189]:  Training Loss:0.001671
+
+Time cost in one epoch for training: 0.1749s
+########
+2023-04-21 05:58:24,867 - [INFO] - [Epoch:190]:  Training Loss:0.001672
+
+Time cost in one epoch for training: 0.1769s
+########
+2023-04-21 05:58:35,668 - [INFO] - [Epoch:191]:  Training Loss:0.00167
+
+Time cost in one epoch for training: 0.1800s
+########
+2023-04-21 05:58:46,305 - [INFO] - [Epoch:192]:  Training Loss:0.001667
+
+Time cost in one epoch for training: 0.1773s
+########
+2023-04-21 05:58:57,007 - [INFO] - [Epoch:193]:  Training Loss:0.001665
+
+Time cost in one epoch for training: 0.1784s
+########
+2023-04-21 05:59:07,852 - [INFO] - [Epoch:194]:  Training Loss:0.00168
+
+Time cost in one epoch for training: 0.1808s
+########
+2023-04-21 05:59:18,379 - [INFO] - [Epoch:195]:  Training Loss:0.001683
+
+Time cost in one epoch for training: 0.1754s
+########
+2023-04-21 05:59:29,029 - [INFO] - [Epoch:196]:  Training Loss:0.001668
+
+Time cost in one epoch for training: 0.1775s
+########
+2023-04-21 05:59:39,737 - [INFO] - [Epoch:197]:  Training Loss:0.001665
+
+Time cost in one epoch for training: 0.1784s
+########
+2023-04-21 05:59:50,399 - [INFO] - [Epoch:198]:  Training Loss:0.001661
+
+Time cost in one epoch for training: 0.1777s
+########
+2023-04-21 06:00:01,051 - [INFO] - [Epoch:199]:  Training Loss:0.001675
+
+Time cost in one epoch for training: 0.1775s
+########
+2023-04-21 06:00:11,767 - [INFO] - [Epoch:200]:  Training Loss:0.001679
+
+Time cost in one epoch for training: 0.1786s
+2023-04-21 06:00:17,282 - [INFO] - [Epoch 200 valid]: MRR: Tail : 0.26115, Head : 0.08453, Avg : 0.17284
+2023-04-21 06:00:17,282 - [INFO] - [Epoch 200 valid]: MR: Tail : 404.88, Head : 813.22, Avg : 609.05
+2023-04-21 06:00:17,318 - [INFO] - [Epoch 200]: Training Loss: 0.0016791, Best Valid MRR: 0.17284
+
+
+########
+2023-04-21 06:00:27,969 - [INFO] - [Epoch:201]:  Training Loss:0.001666
+
+Time cost in one epoch for training: 0.1776s
+2023-04-21 06:00:33,841 - [INFO] - [Epoch 201 valid]: MRR: Tail : 0.26065, Head : 0.08324, Avg : 0.17194
+2023-04-21 06:00:33,841 - [INFO] - [Epoch 201 valid]: MR: Tail : 401.08, Head : 793.95, Avg : 597.52
+2023-04-21 06:00:33,841 - [INFO] - [Epoch 201]: Training Loss: 0.0016658, Best Valid MRR: 0.17284
+
+
+########
+2023-04-21 06:00:44,412 - [INFO] - [Epoch:202]:  Training Loss:0.001663
+
+Time cost in one epoch for training: 0.1762s
+2023-04-21 06:00:50,391 - [INFO] - [Epoch 202 valid]: MRR: Tail : 0.26042, Head : 0.08477, Avg : 0.17259
+2023-04-21 06:00:50,391 - [INFO] - [Epoch 202 valid]: MR: Tail : 386.3, Head : 787.51, Avg : 586.91
+2023-04-21 06:00:50,391 - [INFO] - [Epoch 202]: Training Loss: 0.0016629, Best Valid MRR: 0.17284
+
+
+########
+2023-04-21 06:01:01,081 - [INFO] - [Epoch:203]:  Training Loss:0.001663
+
+Time cost in one epoch for training: 0.1782s
+2023-04-21 06:01:06,905 - [INFO] - [Epoch 203 valid]: MRR: Tail : 0.26019, Head : 0.08452, Avg : 0.17235
+2023-04-21 06:01:06,905 - [INFO] - [Epoch 203 valid]: MR: Tail : 415.18, Head : 826.79, Avg : 620.98
+2023-04-21 06:01:06,905 - [INFO] - [Epoch 203]: Training Loss: 0.0016626, Best Valid MRR: 0.17284
+
+
+########
+2023-04-21 06:01:17,587 - [INFO] - [Epoch:204]:  Training Loss:0.001669
+
+Time cost in one epoch for training: 0.1781s
+2023-04-21 06:01:23,115 - [INFO] - [Epoch 204 valid]: MRR: Tail : 0.26034, Head : 0.08395, Avg : 0.17215
+2023-04-21 06:01:23,115 - [INFO] - [Epoch 204 valid]: MR: Tail : 394.02, Head : 789.42, Avg : 591.72
+2023-04-21 06:01:23,116 - [INFO] - [Epoch 204]: Training Loss: 0.0016694, Best Valid MRR: 0.17284
+
+
+########
+2023-04-21 06:01:33,910 - [INFO] - [Epoch:205]:  Training Loss:0.00166
+
+Time cost in one epoch for training: 0.1800s
+2023-04-21 06:01:39,326 - [INFO] - [Epoch 205 valid]: MRR: Tail : 0.26116, Head : 0.08401, Avg : 0.17258
+2023-04-21 06:01:39,326 - [INFO] - [Epoch 205 valid]: MR: Tail : 393.84, Head : 788.04, Avg : 590.94
+2023-04-21 06:01:39,326 - [INFO] - [Epoch 205]: Training Loss: 0.0016605, Best Valid MRR: 0.17284
+
+
+########
+2023-04-21 06:01:50,013 - [INFO] - [Epoch:206]:  Training Loss:0.001662
+
+Time cost in one epoch for training: 0.1782s
+2023-04-21 06:01:55,875 - [INFO] - [Epoch 206 valid]: MRR: Tail : 0.25942, Head : 0.08449, Avg : 0.17196
+2023-04-21 06:01:55,876 - [INFO] - [Epoch 206 valid]: MR: Tail : 398.73, Head : 791.92, Avg : 595.32
+2023-04-21 06:01:55,876 - [INFO] - [Epoch 206]: Training Loss: 0.0016618, Best Valid MRR: 0.17284
+
+
+########
+2023-04-21 06:02:06,503 - [INFO] - [Epoch:207]:  Training Loss:0.001659
+
+Time cost in one epoch for training: 0.1772s
+2023-04-21 06:02:12,504 - [INFO] - [Epoch 207 valid]: MRR: Tail : 0.26187, Head : 0.08621, Avg : 0.17404
+2023-04-21 06:02:12,505 - [INFO] - [Epoch 207 valid]: MR: Tail : 394.53, Head : 790.1, Avg : 592.31
+2023-04-21 06:02:12,588 - [INFO] - [Epoch 207]: Training Loss: 0.0016586, Best Valid MRR: 0.17404
+
+
+########
+2023-04-21 06:02:23,270 - [INFO] - [Epoch:208]:  Training Loss:0.001652
+
+Time cost in one epoch for training: 0.1781s
+2023-04-21 06:02:28,926 - [INFO] - [Epoch 208 valid]: MRR: Tail : 0.26177, Head : 0.08444, Avg : 0.17311
+2023-04-21 06:02:28,926 - [INFO] - [Epoch 208 valid]: MR: Tail : 389.03, Head : 783.96, Avg : 586.5
+2023-04-21 06:02:28,926 - [INFO] - [Epoch 208]: Training Loss: 0.0016521, Best Valid MRR: 0.17404
+
+
+########
+2023-04-21 06:02:39,490 - [INFO] - [Epoch:209]:  Training Loss:0.001655
+
+Time cost in one epoch for training: 0.1761s
+2023-04-21 06:02:45,091 - [INFO] - [Epoch 209 valid]: MRR: Tail : 0.26321, Head : 0.08532, Avg : 0.17426
+2023-04-21 06:02:45,091 - [INFO] - [Epoch 209 valid]: MR: Tail : 383.9, Head : 770.19, Avg : 577.05
+2023-04-21 06:02:45,168 - [INFO] - [Epoch 209]: Training Loss: 0.0016548, Best Valid MRR: 0.17426
+
+
+########
+2023-04-21 06:02:55,841 - [INFO] - [Epoch:210]:  Training Loss:0.001653
+
+Time cost in one epoch for training: 0.1779s
+2023-04-21 06:03:01,477 - [INFO] - [Epoch 210 valid]: MRR: Tail : 0.26269, Head : 0.08574, Avg : 0.17422
+2023-04-21 06:03:01,478 - [INFO] - [Epoch 210 valid]: MR: Tail : 379.92, Head : 772.14, Avg : 576.03
+2023-04-21 06:03:01,478 - [INFO] - [Epoch 210]: Training Loss: 0.0016535, Best Valid MRR: 0.17426
+
+
+########
+2023-04-21 06:03:12,222 - [INFO] - [Epoch:211]:  Training Loss:0.001658
+
+Time cost in one epoch for training: 0.1791s
+2023-04-21 06:03:18,051 - [INFO] - [Epoch 211 valid]: MRR: Tail : 0.26168, Head : 0.08488, Avg : 0.17328
+2023-04-21 06:03:18,051 - [INFO] - [Epoch 211 valid]: MR: Tail : 396.5, Head : 797.47, Avg : 596.99
+2023-04-21 06:03:18,052 - [INFO] - [Epoch 211]: Training Loss: 0.0016576, Best Valid MRR: 0.17426
+
+
+########
+2023-04-21 06:03:28,633 - [INFO] - [Epoch:212]:  Training Loss:0.001652
+
+Time cost in one epoch for training: 0.1764s
+2023-04-21 06:03:34,743 - [INFO] - [Epoch 212 valid]: MRR: Tail : 0.26173, Head : 0.08537, Avg : 0.17355
+2023-04-21 06:03:34,744 - [INFO] - [Epoch 212 valid]: MR: Tail : 383.88, Head : 773.77, Avg : 578.82
+2023-04-21 06:03:34,744 - [INFO] - [Epoch 212]: Training Loss: 0.0016518, Best Valid MRR: 0.17426
+
+
+########
+2023-04-21 06:03:45,402 - [INFO] - [Epoch:213]:  Training Loss:0.001659
+
+Time cost in one epoch for training: 0.1777s
+2023-04-21 06:03:51,037 - [INFO] - [Epoch 213 valid]: MRR: Tail : 0.26127, Head : 0.08388, Avg : 0.17258
+2023-04-21 06:03:51,037 - [INFO] - [Epoch 213 valid]: MR: Tail : 384.36, Head : 791.7, Avg : 588.03
+2023-04-21 06:03:51,037 - [INFO] - [Epoch 213]: Training Loss: 0.0016594, Best Valid MRR: 0.17426
+
+
+########
+2023-04-21 06:04:01,728 - [INFO] - [Epoch:214]:  Training Loss:0.001653
+
+Time cost in one epoch for training: 0.1782s
+2023-04-21 06:04:07,294 - [INFO] - [Epoch 214 valid]: MRR: Tail : 0.26296, Head : 0.08444, Avg : 0.1737
+2023-04-21 06:04:07,295 - [INFO] - [Epoch 214 valid]: MR: Tail : 391.26, Head : 791.43, Avg : 591.34
+2023-04-21 06:04:07,295 - [INFO] - [Epoch 214]: Training Loss: 0.0016526, Best Valid MRR: 0.17426
+
+
+########
+2023-04-21 06:04:17,901 - [INFO] - [Epoch:215]:  Training Loss:0.001647
+
+Time cost in one epoch for training: 0.1768s
+2023-04-21 06:04:23,487 - [INFO] - [Epoch 215 valid]: MRR: Tail : 0.26198, Head : 0.08551, Avg : 0.17374
+2023-04-21 06:04:23,487 - [INFO] - [Epoch 215 valid]: MR: Tail : 380.72, Head : 781.39, Avg : 581.05
+2023-04-21 06:04:23,487 - [INFO] - [Epoch 215]: Training Loss: 0.0016468, Best Valid MRR: 0.17426
+
+
+########
+2023-04-21 06:04:34,113 - [INFO] - [Epoch:216]:  Training Loss:0.001656
+
+Time cost in one epoch for training: 0.1771s
+2023-04-21 06:04:39,976 - [INFO] - [Epoch 216 valid]: MRR: Tail : 0.262, Head : 0.08368, Avg : 0.17284
+2023-04-21 06:04:39,977 - [INFO] - [Epoch 216 valid]: MR: Tail : 391.13, Head : 798.87, Avg : 595.0
+2023-04-21 06:04:39,977 - [INFO] - [Epoch 216]: Training Loss: 0.001656, Best Valid MRR: 0.17426
+
+
+########
+2023-04-21 06:04:50,544 - [INFO] - [Epoch:217]:  Training Loss:0.001649
+
+Time cost in one epoch for training: 0.1762s
+2023-04-21 06:04:56,461 - [INFO] - [Epoch 217 valid]: MRR: Tail : 0.26285, Head : 0.08568, Avg : 0.17427
+2023-04-21 06:04:56,461 - [INFO] - [Epoch 217 valid]: MR: Tail : 384.45, Head : 786.09, Avg : 585.27
+2023-04-21 06:04:56,542 - [INFO] - [Epoch 217]: Training Loss: 0.0016494, Best Valid MRR: 0.17427
+
+
+########
+2023-04-21 06:05:07,236 - [INFO] - [Epoch:218]:  Training Loss:0.001655
+
+Time cost in one epoch for training: 0.1783s
+2023-04-21 06:05:12,848 - [INFO] - [Epoch 218 valid]: MRR: Tail : 0.26288, Head : 0.08495, Avg : 0.17392
+2023-04-21 06:05:12,849 - [INFO] - [Epoch 218 valid]: MR: Tail : 398.75, Head : 814.23, Avg : 606.49
+2023-04-21 06:05:12,849 - [INFO] - [Epoch 218]: Training Loss: 0.0016551, Best Valid MRR: 0.17427
+
+
+########
+2023-04-21 06:05:23,492 - [INFO] - [Epoch:219]:  Training Loss:0.001651
+
+Time cost in one epoch for training: 0.1775s
+2023-04-21 06:05:29,149 - [INFO] - [Epoch 219 valid]: MRR: Tail : 0.26144, Head : 0.08548, Avg : 0.17346
+2023-04-21 06:05:29,150 - [INFO] - [Epoch 219 valid]: MR: Tail : 375.42, Head : 773.34, Avg : 574.38
+2023-04-21 06:05:29,150 - [INFO] - [Epoch 219]: Training Loss: 0.0016508, Best Valid MRR: 0.17427
+
+
+########
+2023-04-21 06:05:39,855 - [INFO] - [Epoch:220]:  Training Loss:0.00165
+
+Time cost in one epoch for training: 0.1785s
+2023-04-21 06:05:45,351 - [INFO] - [Epoch 220 valid]: MRR: Tail : 0.26089, Head : 0.08486, Avg : 0.17288
+2023-04-21 06:05:45,352 - [INFO] - [Epoch 220 valid]: MR: Tail : 395.7, Head : 799.83, Avg : 597.76
+2023-04-21 06:05:45,352 - [INFO] - [Epoch 220]: Training Loss: 0.0016495, Best Valid MRR: 0.17427
+
+
+########
+2023-04-21 06:05:55,980 - [INFO] - [Epoch:221]:  Training Loss:0.001661
+
+Time cost in one epoch for training: 0.1772s
+2023-04-21 06:06:01,785 - [INFO] - [Epoch 221 valid]: MRR: Tail : 0.26145, Head : 0.08482, Avg : 0.17313
+2023-04-21 06:06:01,785 - [INFO] - [Epoch 221 valid]: MR: Tail : 394.25, Head : 800.61, Avg : 597.43
+2023-04-21 06:06:01,785 - [INFO] - [Epoch 221]: Training Loss: 0.0016611, Best Valid MRR: 0.17427
+
+
+########
+2023-04-21 06:06:12,388 - [INFO] - [Epoch:222]:  Training Loss:0.001652
+
+Time cost in one epoch for training: 0.1768s
+2023-04-21 06:06:18,488 - [INFO] - [Epoch 222 valid]: MRR: Tail : 0.26116, Head : 0.08459, Avg : 0.17287
+2023-04-21 06:06:18,488 - [INFO] - [Epoch 222 valid]: MR: Tail : 375.97, Head : 775.23, Avg : 575.6
+2023-04-21 06:06:18,488 - [INFO] - [Epoch 222]: Training Loss: 0.0016523, Best Valid MRR: 0.17427
+
+
+########
+2023-04-21 06:06:29,274 - [INFO] - [Epoch:223]:  Training Loss:0.001646
+
+Time cost in one epoch for training: 0.1798s
+2023-04-21 06:06:35,050 - [INFO] - [Epoch 223 valid]: MRR: Tail : 0.26063, Head : 0.08476, Avg : 0.17269
+2023-04-21 06:06:35,051 - [INFO] - [Epoch 223 valid]: MR: Tail : 379.42, Head : 778.0, Avg : 578.71
+2023-04-21 06:06:35,051 - [INFO] - [Epoch 223]: Training Loss: 0.0016465, Best Valid MRR: 0.17427
+
+
+########
+2023-04-21 06:06:45,754 - [INFO] - [Epoch:224]:  Training Loss:0.001648
+
+Time cost in one epoch for training: 0.1784s
+2023-04-21 06:06:51,358 - [INFO] - [Epoch 224 valid]: MRR: Tail : 0.26132, Head : 0.08418, Avg : 0.17275
+2023-04-21 06:06:51,358 - [INFO] - [Epoch 224 valid]: MR: Tail : 389.6, Head : 796.54, Avg : 593.07
+2023-04-21 06:06:51,358 - [INFO] - [Epoch 224]: Training Loss: 0.0016478, Best Valid MRR: 0.17427
+
+
+########
+2023-04-21 06:07:01,937 - [INFO] - [Epoch:225]:  Training Loss:0.001646
+
+Time cost in one epoch for training: 0.1764s
+2023-04-21 06:07:07,402 - [INFO] - [Epoch 225 valid]: MRR: Tail : 0.26067, Head : 0.08411, Avg : 0.17239
+2023-04-21 06:07:07,402 - [INFO] - [Epoch 225 valid]: MR: Tail : 393.32, Head : 810.66, Avg : 601.99
+2023-04-21 06:07:07,402 - [INFO] - [Epoch 225]: Training Loss: 0.0016464, Best Valid MRR: 0.17427
+
+
+########
+2023-04-21 06:07:18,106 - [INFO] - [Epoch:226]:  Training Loss:0.001645
+
+Time cost in one epoch for training: 0.1785s
+2023-04-21 06:07:23,904 - [INFO] - [Epoch 226 valid]: MRR: Tail : 0.26189, Head : 0.08588, Avg : 0.17389
+2023-04-21 06:07:23,904 - [INFO] - [Epoch 226 valid]: MR: Tail : 380.71, Head : 787.67, Avg : 584.19
+2023-04-21 06:07:23,904 - [INFO] - [Epoch 226]: Training Loss: 0.0016449, Best Valid MRR: 0.17427
+
+
+########
+2023-04-21 06:07:34,473 - [INFO] - [Epoch:227]:  Training Loss:0.001647
+
+Time cost in one epoch for training: 0.1762s
+2023-04-21 06:07:40,511 - [INFO] - [Epoch 227 valid]: MRR: Tail : 0.26185, Head : 0.08471, Avg : 0.17328
+2023-04-21 06:07:40,511 - [INFO] - [Epoch 227 valid]: MR: Tail : 382.54, Head : 783.42, Avg : 582.98
+2023-04-21 06:07:40,512 - [INFO] - Gamma decay on saturation, updated value of gamma: 35
+2023-04-21 06:07:40,512 - [INFO] - [Epoch 227]: Training Loss: 0.0016467, Best Valid MRR: 0.17427
+
+
+########
+2023-04-21 06:07:51,250 - [INFO] - [Epoch:228]:  Training Loss:0.001644
+
+Time cost in one epoch for training: 0.1790s
+2023-04-21 06:07:56,869 - [INFO] - [Epoch 228 valid]: MRR: Tail : 0.26409, Head : 0.08712, Avg : 0.1756
+2023-04-21 06:07:56,869 - [INFO] - [Epoch 228 valid]: MR: Tail : 380.59, Head : 781.7, Avg : 581.15
+2023-04-21 06:07:56,956 - [INFO] - [Epoch 228]: Training Loss: 0.0016436, Best Valid MRR: 0.1756
+
+
+########
+2023-04-21 06:08:07,644 - [INFO] - [Epoch:229]:  Training Loss:0.001641
+
+Time cost in one epoch for training: 0.1782s
+2023-04-21 06:08:13,409 - [INFO] - [Epoch 229 valid]: MRR: Tail : 0.26332, Head : 0.08578, Avg : 0.17455
+2023-04-21 06:08:13,410 - [INFO] - [Epoch 229 valid]: MR: Tail : 385.8, Head : 790.14, Avg : 587.97
+2023-04-21 06:08:13,410 - [INFO] - [Epoch 229]: Training Loss: 0.0016408, Best Valid MRR: 0.1756
+
+
+########
+2023-04-21 06:08:24,160 - [INFO] - [Epoch:230]:  Training Loss:0.001642
+
+Time cost in one epoch for training: 0.1792s
+2023-04-21 06:08:29,888 - [INFO] - [Epoch 230 valid]: MRR: Tail : 0.26257, Head : 0.08411, Avg : 0.17334
+2023-04-21 06:08:29,888 - [INFO] - [Epoch 230 valid]: MR: Tail : 385.83, Head : 784.1, Avg : 584.97
+2023-04-21 06:08:29,888 - [INFO] - [Epoch 230]: Training Loss: 0.0016418, Best Valid MRR: 0.1756
+
+
+########
+2023-04-21 06:08:40,503 - [INFO] - [Epoch:231]:  Training Loss:0.001644
+
+Time cost in one epoch for training: 0.1770s
+2023-04-21 06:08:46,492 - [INFO] - [Epoch 231 valid]: MRR: Tail : 0.26358, Head : 0.08615, Avg : 0.17486
+2023-04-21 06:08:46,493 - [INFO] - [Epoch 231 valid]: MR: Tail : 376.33, Head : 772.82, Avg : 574.57
+2023-04-21 06:08:46,493 - [INFO] - [Epoch 231]: Training Loss: 0.0016442, Best Valid MRR: 0.1756
+
+
+########
+2023-04-21 06:08:56,943 - [INFO] - [Epoch:232]:  Training Loss:0.001642
+
+Time cost in one epoch for training: 0.1742s
+2023-04-21 06:09:02,765 - [INFO] - [Epoch 232 valid]: MRR: Tail : 0.26252, Head : 0.08483, Avg : 0.17367
+2023-04-21 06:09:02,765 - [INFO] - [Epoch 232 valid]: MR: Tail : 383.55, Head : 783.06, Avg : 583.31
+2023-04-21 06:09:02,765 - [INFO] - [Epoch 232]: Training Loss: 0.0016424, Best Valid MRR: 0.1756
+
+
+########
+2023-04-21 06:09:13,299 - [INFO] - [Epoch:233]:  Training Loss:0.001638
+
+Time cost in one epoch for training: 0.1756s
+2023-04-21 06:09:18,852 - [INFO] - [Epoch 233 valid]: MRR: Tail : 0.26368, Head : 0.08551, Avg : 0.1746
+2023-04-21 06:09:18,852 - [INFO] - [Epoch 233 valid]: MR: Tail : 400.26, Head : 804.84, Avg : 602.55
+2023-04-21 06:09:18,853 - [INFO] - [Epoch 233]: Training Loss: 0.0016378, Best Valid MRR: 0.1756
+
+
+########
+2023-04-21 06:09:29,541 - [INFO] - [Epoch:234]:  Training Loss:0.00164
+
+Time cost in one epoch for training: 0.1782s
+2023-04-21 06:09:35,056 - [INFO] - [Epoch 234 valid]: MRR: Tail : 0.26345, Head : 0.0856, Avg : 0.17452
+2023-04-21 06:09:35,056 - [INFO] - [Epoch 234 valid]: MR: Tail : 378.62, Head : 774.18, Avg : 576.4
+2023-04-21 06:09:35,057 - [INFO] - [Epoch 234]: Training Loss: 0.00164, Best Valid MRR: 0.1756
+
+
+########
+2023-04-21 06:09:45,595 - [INFO] - [Epoch:235]:  Training Loss:0.001635
+
+Time cost in one epoch for training: 0.1757s
+2023-04-21 06:09:51,176 - [INFO] - [Epoch 235 valid]: MRR: Tail : 0.26364, Head : 0.08441, Avg : 0.17403
+2023-04-21 06:09:51,176 - [INFO] - [Epoch 235 valid]: MR: Tail : 382.15, Head : 787.6, Avg : 584.88
+2023-04-21 06:09:51,176 - [INFO] - [Epoch 235]: Training Loss: 0.0016355, Best Valid MRR: 0.1756
+
+
+########
+2023-04-21 06:10:01,823 - [INFO] - [Epoch:236]:  Training Loss:0.001636
+
+Time cost in one epoch for training: 0.1775s
+2023-04-21 06:10:07,821 - [INFO] - [Epoch 236 valid]: MRR: Tail : 0.26348, Head : 0.08681, Avg : 0.17515
+2023-04-21 06:10:07,821 - [INFO] - [Epoch 236 valid]: MR: Tail : 372.15, Head : 762.68, Avg : 567.42
+2023-04-21 06:10:07,822 - [INFO] - [Epoch 236]: Training Loss: 0.0016358, Best Valid MRR: 0.1756
+
+
+########
+2023-04-21 06:10:18,529 - [INFO] - [Epoch:237]:  Training Loss:0.001637
+
+Time cost in one epoch for training: 0.1785s
+2023-04-21 06:10:24,517 - [INFO] - [Epoch 237 valid]: MRR: Tail : 0.26259, Head : 0.08495, Avg : 0.17377
+2023-04-21 06:10:24,517 - [INFO] - [Epoch 237 valid]: MR: Tail : 377.97, Head : 777.81, Avg : 577.89
+2023-04-21 06:10:24,517 - [INFO] - [Epoch 237]: Training Loss: 0.0016368, Best Valid MRR: 0.1756
+
+
+########
+2023-04-21 06:10:35,153 - [INFO] - [Epoch:238]:  Training Loss:0.001635
+
+Time cost in one epoch for training: 0.1773s
+2023-04-21 06:10:40,598 - [INFO] - [Epoch 238 valid]: MRR: Tail : 0.26412, Head : 0.08584, Avg : 0.17498
+2023-04-21 06:10:40,598 - [INFO] - [Epoch 238 valid]: MR: Tail : 378.01, Head : 771.31, Avg : 574.66
+2023-04-21 06:10:40,598 - [INFO] - Gamma decay on saturation, updated value of gamma: 30
+2023-04-21 06:10:40,598 - [INFO] - [Epoch 238]: Training Loss: 0.0016346, Best Valid MRR: 0.1756
+
+
+########
+2023-04-21 06:10:51,167 - [INFO] - [Epoch:239]:  Training Loss:0.001636
+
+Time cost in one epoch for training: 0.1762s
+2023-04-21 06:10:56,775 - [INFO] - [Epoch 239 valid]: MRR: Tail : 0.26165, Head : 0.08634, Avg : 0.174
+2023-04-21 06:10:56,775 - [INFO] - [Epoch 239 valid]: MR: Tail : 373.23, Head : 767.31, Avg : 570.27
+2023-04-21 06:10:56,775 - [INFO] - [Epoch 239]: Training Loss: 0.0016361, Best Valid MRR: 0.1756
+
+
+########
+2023-04-21 06:11:07,424 - [INFO] - [Epoch:240]:  Training Loss:0.001639
+
+Time cost in one epoch for training: 0.1775s
+2023-04-21 06:11:13,185 - [INFO] - [Epoch 240 valid]: MRR: Tail : 0.26368, Head : 0.08611, Avg : 0.17489
+2023-04-21 06:11:13,186 - [INFO] - [Epoch 240 valid]: MR: Tail : 381.17, Head : 779.49, Avg : 580.33
+2023-04-21 06:11:13,186 - [INFO] - [Epoch 240]: Training Loss: 0.0016391, Best Valid MRR: 0.1756
+
+
+########
+2023-04-21 06:11:23,762 - [INFO] - [Epoch:241]:  Training Loss:0.001639
+
+Time cost in one epoch for training: 0.1763s
+2023-04-21 06:11:29,969 - [INFO] - [Epoch 241 valid]: MRR: Tail : 0.26292, Head : 0.0855, Avg : 0.17421
+2023-04-21 06:11:29,969 - [INFO] - [Epoch 241 valid]: MR: Tail : 378.03, Head : 777.27, Avg : 577.65
+2023-04-21 06:11:29,969 - [INFO] - [Epoch 241]: Training Loss: 0.0016386, Best Valid MRR: 0.1756
+
+
+########
+2023-04-21 06:11:40,569 - [INFO] - [Epoch:242]:  Training Loss:0.001637
+
+Time cost in one epoch for training: 0.1767s
+2023-04-21 06:11:46,311 - [INFO] - [Epoch 242 valid]: MRR: Tail : 0.26053, Head : 0.08401, Avg : 0.17227
+2023-04-21 06:11:46,312 - [INFO] - [Epoch 242 valid]: MR: Tail : 399.59, Head : 820.36, Avg : 609.97
+2023-04-21 06:11:46,312 - [INFO] - [Epoch 242]: Training Loss: 0.0016367, Best Valid MRR: 0.1756
+
+
+########
+2023-04-21 06:11:56,924 - [INFO] - [Epoch:243]:  Training Loss:0.001632
+
+Time cost in one epoch for training: 0.1769s
+2023-04-21 06:12:02,709 - [INFO] - [Epoch 243 valid]: MRR: Tail : 0.26242, Head : 0.08634, Avg : 0.17438
+2023-04-21 06:12:02,709 - [INFO] - [Epoch 243 valid]: MR: Tail : 370.25, Head : 763.99, Avg : 567.12
+2023-04-21 06:12:02,710 - [INFO] - [Epoch 243]: Training Loss: 0.001632, Best Valid MRR: 0.1756
+
+
+########
+2023-04-21 06:12:13,392 - [INFO] - [Epoch:244]:  Training Loss:0.00163
+
+Time cost in one epoch for training: 0.1781s
+2023-04-21 06:12:19,071 - [INFO] - [Epoch 244 valid]: MRR: Tail : 0.26323, Head : 0.08627, Avg : 0.17475
+2023-04-21 06:12:19,072 - [INFO] - [Epoch 244 valid]: MR: Tail : 378.1, Head : 776.41, Avg : 577.25
+2023-04-21 06:12:19,072 - [INFO] - [Epoch 244]: Training Loss: 0.0016305, Best Valid MRR: 0.1756
+
+
+########
+2023-04-21 06:12:29,755 - [INFO] - [Epoch:245]:  Training Loss:0.001628
+
+Time cost in one epoch for training: 0.1781s
+2023-04-21 06:12:35,524 - [INFO] - [Epoch 245 valid]: MRR: Tail : 0.26121, Head : 0.08489, Avg : 0.17305
+2023-04-21 06:12:35,524 - [INFO] - [Epoch 245 valid]: MR: Tail : 389.42, Head : 788.73, Avg : 589.07
+2023-04-21 06:12:35,524 - [INFO] - [Epoch 245]: Training Loss: 0.0016276, Best Valid MRR: 0.1756
+
+
+########
+2023-04-21 06:12:46,043 - [INFO] - [Epoch:246]:  Training Loss:0.001629
+
+Time cost in one epoch for training: 0.1754s
+2023-04-21 06:12:51,914 - [INFO] - [Epoch 246 valid]: MRR: Tail : 0.26357, Head : 0.087, Avg : 0.17529
+2023-04-21 06:12:51,914 - [INFO] - [Epoch 246 valid]: MR: Tail : 377.46, Head : 767.47, Avg : 572.46
+2023-04-21 06:12:51,914 - [INFO] - [Epoch 246]: Training Loss: 0.0016288, Best Valid MRR: 0.1756
+
+
+########
+2023-04-21 06:13:02,699 - [INFO] - [Epoch:247]:  Training Loss:0.001639
+
+Time cost in one epoch for training: 0.1799s
+2023-04-21 06:13:08,389 - [INFO] - [Epoch 247 valid]: MRR: Tail : 0.26197, Head : 0.08361, Avg : 0.17279
+2023-04-21 06:13:08,390 - [INFO] - [Epoch 247 valid]: MR: Tail : 389.95, Head : 811.05, Avg : 600.5
+2023-04-21 06:13:08,390 - [INFO] - [Epoch 247]: Training Loss: 0.0016392, Best Valid MRR: 0.1756
+
+
+########
+2023-04-21 06:13:19,028 - [INFO] - [Epoch:248]:  Training Loss:0.001646
+
+Time cost in one epoch for training: 0.1774s
+2023-04-21 06:13:24,513 - [INFO] - [Epoch 248 valid]: MRR: Tail : 0.26335, Head : 0.08572, Avg : 0.17453
+2023-04-21 06:13:24,513 - [INFO] - [Epoch 248 valid]: MR: Tail : 384.57, Head : 800.38, Avg : 592.48
+2023-04-21 06:13:24,513 - [INFO] - Gamma decay on saturation, updated value of gamma: 25
+2023-04-21 06:13:24,514 - [INFO] - [Epoch 248]: Training Loss: 0.0016462, Best Valid MRR: 0.1756
+
+
+########
+2023-04-21 06:13:35,091 - [INFO] - [Epoch:249]:  Training Loss:0.001631
+
+Time cost in one epoch for training: 0.1764s
+2023-04-21 06:13:40,618 - [INFO] - [Epoch 249 valid]: MRR: Tail : 0.26322, Head : 0.08566, Avg : 0.17444
+2023-04-21 06:13:40,618 - [INFO] - [Epoch 249 valid]: MR: Tail : 378.0, Head : 787.84, Avg : 582.92
+2023-04-21 06:13:40,618 - [INFO] - [Epoch 249]: Training Loss: 0.0016306, Best Valid MRR: 0.1756
+
+
+########
+2023-04-21 06:13:51,216 - [INFO] - [Epoch:250]:  Training Loss:0.001629
+
+Time cost in one epoch for training: 0.1767s
+2023-04-21 06:13:57,201 - [INFO] - [Epoch 250 valid]: MRR: Tail : 0.26452, Head : 0.08717, Avg : 0.17585
+2023-04-21 06:13:57,201 - [INFO] - [Epoch 250 valid]: MR: Tail : 376.23, Head : 770.44, Avg : 573.34
+2023-04-21 06:13:57,282 - [INFO] - [Epoch 250]: Training Loss: 0.0016287, Best Valid MRR: 0.17585
+
+
+########
+2023-04-21 06:14:07,957 - [INFO] - [Epoch:251]:  Training Loss:0.001626
+
+Time cost in one epoch for training: 0.1780s
+2023-04-21 06:14:13,798 - [INFO] - [Epoch 251 valid]: MRR: Tail : 0.26265, Head : 0.08621, Avg : 0.17443
+2023-04-21 06:14:13,799 - [INFO] - [Epoch 251 valid]: MR: Tail : 375.63, Head : 781.06, Avg : 578.34
+2023-04-21 06:14:13,799 - [INFO] - [Epoch 251]: Training Loss: 0.0016257, Best Valid MRR: 0.17585
+
+
+########
+2023-04-21 06:14:24,428 - [INFO] - [Epoch:252]:  Training Loss:0.001624
+
+Time cost in one epoch for training: 0.1772s
+2023-04-21 06:14:29,861 - [INFO] - [Epoch 252 valid]: MRR: Tail : 0.26481, Head : 0.08576, Avg : 0.17528
+2023-04-21 06:14:29,861 - [INFO] - [Epoch 252 valid]: MR: Tail : 374.59, Head : 782.57, Avg : 578.58
+2023-04-21 06:14:29,861 - [INFO] - [Epoch 252]: Training Loss: 0.0016243, Best Valid MRR: 0.17585
+
+
+########
+2023-04-21 06:14:40,434 - [INFO] - [Epoch:253]:  Training Loss:0.001627
+
+Time cost in one epoch for training: 0.1763s
+2023-04-21 06:14:46,048 - [INFO] - [Epoch 253 valid]: MRR: Tail : 0.26456, Head : 0.08688, Avg : 0.17572
+2023-04-21 06:14:46,048 - [INFO] - [Epoch 253 valid]: MR: Tail : 369.59, Head : 785.36, Avg : 577.48
+2023-04-21 06:14:46,049 - [INFO] - [Epoch 253]: Training Loss: 0.001627, Best Valid MRR: 0.17585
+
+
+########
+2023-04-21 06:14:56,571 - [INFO] - [Epoch:254]:  Training Loss:0.001626
+
+Time cost in one epoch for training: 0.1754s
+2023-04-21 06:15:02,135 - [INFO] - [Epoch 254 valid]: MRR: Tail : 0.26395, Head : 0.0862, Avg : 0.17508
+2023-04-21 06:15:02,135 - [INFO] - [Epoch 254 valid]: MR: Tail : 373.72, Head : 779.28, Avg : 576.5
+2023-04-21 06:15:02,135 - [INFO] - [Epoch 254]: Training Loss: 0.0016263, Best Valid MRR: 0.17585
+
+
+########
+2023-04-21 06:15:12,655 - [INFO] - [Epoch:255]:  Training Loss:0.001631
+
+Time cost in one epoch for training: 0.1754s
+2023-04-21 06:15:18,610 - [INFO] - [Epoch 255 valid]: MRR: Tail : 0.26595, Head : 0.08738, Avg : 0.17667
+2023-04-21 06:15:18,610 - [INFO] - [Epoch 255 valid]: MR: Tail : 382.15, Head : 798.65, Avg : 590.4
+2023-04-21 06:15:18,686 - [INFO] - [Epoch 255]: Training Loss: 0.0016312, Best Valid MRR: 0.17667
+
+
+########
+2023-04-21 06:15:29,152 - [INFO] - [Epoch:256]:  Training Loss:0.001627
+
+Time cost in one epoch for training: 0.1745s
+2023-04-21 06:15:34,976 - [INFO] - [Epoch 256 valid]: MRR: Tail : 0.2625, Head : 0.0854, Avg : 0.17395
+2023-04-21 06:15:34,977 - [INFO] - [Epoch 256 valid]: MR: Tail : 375.91, Head : 798.41, Avg : 587.16
+2023-04-21 06:15:34,977 - [INFO] - [Epoch 256]: Training Loss: 0.001627, Best Valid MRR: 0.17667
+
+
+########
+2023-04-21 06:15:45,617 - [INFO] - [Epoch:257]:  Training Loss:0.001634
+
+Time cost in one epoch for training: 0.1774s
+2023-04-21 06:15:51,035 - [INFO] - [Epoch 257 valid]: MRR: Tail : 0.26297, Head : 0.08529, Avg : 0.17413
+2023-04-21 06:15:51,035 - [INFO] - [Epoch 257 valid]: MR: Tail : 385.3, Head : 793.87, Avg : 589.58
+2023-04-21 06:15:51,035 - [INFO] - [Epoch 257]: Training Loss: 0.0016336, Best Valid MRR: 0.17667
+
+
+########
+2023-04-21 06:16:01,719 - [INFO] - [Epoch:258]:  Training Loss:0.001625
+
+Time cost in one epoch for training: 0.1781s
+2023-04-21 06:16:07,345 - [INFO] - [Epoch 258 valid]: MRR: Tail : 0.26368, Head : 0.08576, Avg : 0.17472
+2023-04-21 06:16:07,346 - [INFO] - [Epoch 258 valid]: MR: Tail : 379.21, Head : 787.63, Avg : 583.42
+2023-04-21 06:16:07,346 - [INFO] - [Epoch 258]: Training Loss: 0.0016251, Best Valid MRR: 0.17667
+
+
+########
+2023-04-21 06:16:18,027 - [INFO] - [Epoch:259]:  Training Loss:0.001629
+
+Time cost in one epoch for training: 0.1781s
+2023-04-21 06:16:23,633 - [INFO] - [Epoch 259 valid]: MRR: Tail : 0.26452, Head : 0.08681, Avg : 0.17566
+2023-04-21 06:16:23,633 - [INFO] - [Epoch 259 valid]: MR: Tail : 373.9, Head : 771.48, Avg : 572.69
+2023-04-21 06:16:23,633 - [INFO] - [Epoch 259]: Training Loss: 0.0016288, Best Valid MRR: 0.17667
+
+
+########
+2023-04-21 06:16:34,194 - [INFO] - [Epoch:260]:  Training Loss:0.001624
+
+Time cost in one epoch for training: 0.1761s
+2023-04-21 06:16:40,088 - [INFO] - [Epoch 260 valid]: MRR: Tail : 0.2649, Head : 0.08628, Avg : 0.17559
+2023-04-21 06:16:40,089 - [INFO] - [Epoch 260 valid]: MR: Tail : 369.77, Head : 772.21, Avg : 570.99
+2023-04-21 06:16:40,089 - [INFO] - [Epoch 260]: Training Loss: 0.0016245, Best Valid MRR: 0.17667
+
+
+########
+2023-04-21 06:16:50,695 - [INFO] - [Epoch:261]:  Training Loss:0.00162
+
+Time cost in one epoch for training: 0.1768s
+2023-04-21 06:16:56,350 - [INFO] - [Epoch 261 valid]: MRR: Tail : 0.26273, Head : 0.08565, Avg : 0.17419
+2023-04-21 06:16:56,350 - [INFO] - [Epoch 261 valid]: MR: Tail : 374.66, Head : 772.16, Avg : 573.41
+2023-04-21 06:16:56,351 - [INFO] - [Epoch 261]: Training Loss: 0.0016197, Best Valid MRR: 0.17667
+
+
+########
+2023-04-21 06:17:06,887 - [INFO] - [Epoch:262]:  Training Loss:0.001626
+
+Time cost in one epoch for training: 0.1757s
+2023-04-21 06:17:12,465 - [INFO] - [Epoch 262 valid]: MRR: Tail : 0.26393, Head : 0.08529, Avg : 0.17461
+2023-04-21 06:17:12,465 - [INFO] - [Epoch 262 valid]: MR: Tail : 383.44, Head : 780.4, Avg : 581.92
+2023-04-21 06:17:12,465 - [INFO] - [Epoch 262]: Training Loss: 0.0016263, Best Valid MRR: 0.17667
+
+
+########
+2023-04-21 06:17:23,010 - [INFO] - [Epoch:263]:  Training Loss:0.001622
+
+Time cost in one epoch for training: 0.1758s
+2023-04-21 06:17:28,558 - [INFO] - [Epoch 263 valid]: MRR: Tail : 0.26481, Head : 0.08629, Avg : 0.17555
+2023-04-21 06:17:28,558 - [INFO] - [Epoch 263 valid]: MR: Tail : 370.86, Head : 756.14, Avg : 563.5
+2023-04-21 06:17:28,558 - [INFO] - [Epoch 263]: Training Loss: 0.0016221, Best Valid MRR: 0.17667
+
+
+########
+2023-04-21 06:17:38,996 - [INFO] - [Epoch:264]:  Training Loss:0.00162
+
+Time cost in one epoch for training: 0.1740s
+2023-04-21 06:17:44,897 - [INFO] - [Epoch 264 valid]: MRR: Tail : 0.26402, Head : 0.08527, Avg : 0.17464
+2023-04-21 06:17:44,897 - [INFO] - [Epoch 264 valid]: MR: Tail : 380.58, Head : 781.09, Avg : 580.83
+2023-04-21 06:17:44,897 - [INFO] - [Epoch 264]: Training Loss: 0.0016202, Best Valid MRR: 0.17667
+
+
+########
+2023-04-21 06:17:55,500 - [INFO] - [Epoch:265]:  Training Loss:0.001619
+
+Time cost in one epoch for training: 0.1768s
+2023-04-21 06:18:01,543 - [INFO] - [Epoch 265 valid]: MRR: Tail : 0.2649, Head : 0.08612, Avg : 0.17551
+2023-04-21 06:18:01,544 - [INFO] - [Epoch 265 valid]: MR: Tail : 367.45, Head : 760.38, Avg : 563.92
+2023-04-21 06:18:01,544 - [INFO] - Gamma decay on saturation, updated value of gamma: 20
+2023-04-21 06:18:01,544 - [INFO] - [Epoch 265]: Training Loss: 0.0016194, Best Valid MRR: 0.17667
+
+
+########
+2023-04-21 06:18:12,079 - [INFO] - [Epoch:266]:  Training Loss:0.001617
+
+Time cost in one epoch for training: 0.1757s
+2023-04-21 06:18:17,678 - [INFO] - [Epoch 266 valid]: MRR: Tail : 0.26409, Head : 0.08618, Avg : 0.17514
+2023-04-21 06:18:17,679 - [INFO] - [Epoch 266 valid]: MR: Tail : 368.87, Head : 753.73, Avg : 561.3
+2023-04-21 06:18:17,679 - [INFO] - [Epoch 266]: Training Loss: 0.0016172, Best Valid MRR: 0.17667
+
+
+########
+2023-04-21 06:18:28,212 - [INFO] - [Epoch:267]:  Training Loss:0.001623
+
+Time cost in one epoch for training: 0.1756s
+2023-04-21 06:18:33,697 - [INFO] - [Epoch 267 valid]: MRR: Tail : 0.26366, Head : 0.08494, Avg : 0.1743
+2023-04-21 06:18:33,697 - [INFO] - [Epoch 267 valid]: MR: Tail : 368.56, Head : 764.48, Avg : 566.52
+2023-04-21 06:18:33,697 - [INFO] - [Epoch 267]: Training Loss: 0.0016225, Best Valid MRR: 0.17667
+
+
+########
+2023-04-21 06:18:44,362 - [INFO] - [Epoch:268]:  Training Loss:0.00162
+
+Time cost in one epoch for training: 0.1778s
+2023-04-21 06:18:49,894 - [INFO] - [Epoch 268 valid]: MRR: Tail : 0.26446, Head : 0.08614, Avg : 0.1753
+2023-04-21 06:18:49,894 - [INFO] - [Epoch 268 valid]: MR: Tail : 372.5, Head : 758.88, Avg : 565.69
+2023-04-21 06:18:49,894 - [INFO] - [Epoch 268]: Training Loss: 0.00162, Best Valid MRR: 0.17667
+
+
+########
+2023-04-21 06:19:00,604 - [INFO] - [Epoch:269]:  Training Loss:0.001615
+
+Time cost in one epoch for training: 0.1786s
+2023-04-21 06:19:06,373 - [INFO] - [Epoch 269 valid]: MRR: Tail : 0.26653, Head : 0.08754, Avg : 0.17704
+2023-04-21 06:19:06,373 - [INFO] - [Epoch 269 valid]: MR: Tail : 372.89, Head : 770.39, Avg : 571.64
+2023-04-21 06:19:06,459 - [INFO] - [Epoch 269]: Training Loss: 0.0016153, Best Valid MRR: 0.17704
+
+
+########
+2023-04-21 06:19:16,988 - [INFO] - [Epoch:270]:  Training Loss:0.001618
+
+Time cost in one epoch for training: 0.1755s
+2023-04-21 06:19:22,993 - [INFO] - [Epoch 270 valid]: MRR: Tail : 0.26277, Head : 0.08586, Avg : 0.17432
+2023-04-21 06:19:22,993 - [INFO] - [Epoch 270 valid]: MR: Tail : 370.0, Head : 762.43, Avg : 566.22
+2023-04-21 06:19:22,993 - [INFO] - [Epoch 270]: Training Loss: 0.0016182, Best Valid MRR: 0.17704
+
+
+########
+2023-04-21 06:19:33,599 - [INFO] - [Epoch:271]:  Training Loss:0.001615
+
+Time cost in one epoch for training: 0.1768s
+2023-04-21 06:19:39,275 - [INFO] - [Epoch 271 valid]: MRR: Tail : 0.26398, Head : 0.08658, Avg : 0.17528
+2023-04-21 06:19:39,275 - [INFO] - [Epoch 271 valid]: MR: Tail : 369.96, Head : 753.59, Avg : 561.77
+2023-04-21 06:19:39,275 - [INFO] - [Epoch 271]: Training Loss: 0.0016154, Best Valid MRR: 0.17704
+
+
+########
+2023-04-21 06:19:49,731 - [INFO] - [Epoch:272]:  Training Loss:0.001615
+
+Time cost in one epoch for training: 0.1743s
+2023-04-21 06:19:55,294 - [INFO] - [Epoch 272 valid]: MRR: Tail : 0.26382, Head : 0.08664, Avg : 0.17523
+2023-04-21 06:19:55,295 - [INFO] - [Epoch 272 valid]: MR: Tail : 366.37, Head : 756.36, Avg : 561.36
+2023-04-21 06:19:55,295 - [INFO] - [Epoch 272]: Training Loss: 0.0016148, Best Valid MRR: 0.17704
+
+
+########
+2023-04-21 06:20:05,789 - [INFO] - [Epoch:273]:  Training Loss:0.001614
+
+Time cost in one epoch for training: 0.1750s
+2023-04-21 06:20:11,233 - [INFO] - [Epoch 273 valid]: MRR: Tail : 0.26303, Head : 0.08516, Avg : 0.17409
+2023-04-21 06:20:11,233 - [INFO] - [Epoch 273 valid]: MR: Tail : 371.81, Head : 766.27, Avg : 569.04
+2023-04-21 06:20:11,233 - [INFO] - [Epoch 273]: Training Loss: 0.0016141, Best Valid MRR: 0.17704
+
+
+########
+2023-04-21 06:20:21,798 - [INFO] - [Epoch:274]:  Training Loss:0.001613
+
+Time cost in one epoch for training: 0.1761s
+2023-04-21 06:20:27,724 - [INFO] - [Epoch 274 valid]: MRR: Tail : 0.26557, Head : 0.08673, Avg : 0.17615
+2023-04-21 06:20:27,724 - [INFO] - [Epoch 274 valid]: MR: Tail : 367.74, Head : 759.59, Avg : 563.66
+2023-04-21 06:20:27,724 - [INFO] - [Epoch 274]: Training Loss: 0.0016129, Best Valid MRR: 0.17704
+
+
+########
+2023-04-21 06:20:38,321 - [INFO] - [Epoch:275]:  Training Loss:0.00161
+
+Time cost in one epoch for training: 0.1767s
+2023-04-21 06:20:44,301 - [INFO] - [Epoch 275 valid]: MRR: Tail : 0.26514, Head : 0.08707, Avg : 0.1761
+2023-04-21 06:20:44,301 - [INFO] - [Epoch 275 valid]: MR: Tail : 366.19, Head : 756.82, Avg : 561.5
+2023-04-21 06:20:44,302 - [INFO] - [Epoch 275]: Training Loss: 0.0016098, Best Valid MRR: 0.17704
+
+
+########
+2023-04-21 06:20:54,823 - [INFO] - [Epoch:276]:  Training Loss:0.001611
+
+Time cost in one epoch for training: 0.1754s
+2023-04-21 06:21:00,538 - [INFO] - [Epoch 276 valid]: MRR: Tail : 0.26338, Head : 0.0876, Avg : 0.17549
+2023-04-21 06:21:00,538 - [INFO] - [Epoch 276 valid]: MR: Tail : 364.55, Head : 760.91, Avg : 562.73
+2023-04-21 06:21:00,539 - [INFO] - [Epoch 276]: Training Loss: 0.0016108, Best Valid MRR: 0.17704
+
+
+########
+2023-04-21 06:21:11,176 - [INFO] - [Epoch:277]:  Training Loss:0.00161
+
+Time cost in one epoch for training: 0.1774s
+2023-04-21 06:21:16,769 - [INFO] - [Epoch 277 valid]: MRR: Tail : 0.2646, Head : 0.08625, Avg : 0.17543
+2023-04-21 06:21:16,770 - [INFO] - [Epoch 277 valid]: MR: Tail : 371.41, Head : 768.34, Avg : 569.87
+2023-04-21 06:21:16,770 - [INFO] - [Epoch 277]: Training Loss: 0.0016098, Best Valid MRR: 0.17704
+
+
+########
+2023-04-21 06:21:27,248 - [INFO] - [Epoch:278]:  Training Loss:0.001611
+
+Time cost in one epoch for training: 0.1747s
+2023-04-21 06:21:32,848 - [INFO] - [Epoch 278 valid]: MRR: Tail : 0.26467, Head : 0.08583, Avg : 0.17525
+2023-04-21 06:21:32,849 - [INFO] - [Epoch 278 valid]: MR: Tail : 366.75, Head : 765.18, Avg : 565.96
+2023-04-21 06:21:32,849 - [INFO] - [Epoch 278]: Training Loss: 0.001611, Best Valid MRR: 0.17704
+
+
+########
+2023-04-21 06:21:43,370 - [INFO] - [Epoch:279]:  Training Loss:0.001614
+
+Time cost in one epoch for training: 0.1754s
+2023-04-21 06:21:49,116 - [INFO] - [Epoch 279 valid]: MRR: Tail : 0.26334, Head : 0.08603, Avg : 0.17468
+2023-04-21 06:21:49,116 - [INFO] - [Epoch 279 valid]: MR: Tail : 368.44, Head : 765.02, Avg : 566.73
+2023-04-21 06:21:49,117 - [INFO] - Gamma decay on saturation, updated value of gamma: 15
+2023-04-21 06:21:49,117 - [INFO] - [Epoch 279]: Training Loss: 0.0016144, Best Valid MRR: 0.17704
+
+
+########
+2023-04-21 06:21:59,594 - [INFO] - [Epoch:280]:  Training Loss:0.001611
+
+Time cost in one epoch for training: 0.1747s
+2023-04-21 06:22:05,673 - [INFO] - [Epoch 280 valid]: MRR: Tail : 0.26501, Head : 0.08632, Avg : 0.17567
+2023-04-21 06:22:05,673 - [INFO] - [Epoch 280 valid]: MR: Tail : 369.59, Head : 761.29, Avg : 565.44
+2023-04-21 06:22:05,673 - [INFO] - [Epoch 280]: Training Loss: 0.0016112, Best Valid MRR: 0.17704
+
+
+########
+2023-04-21 06:22:16,333 - [INFO] - [Epoch:281]:  Training Loss:0.00161
+
+Time cost in one epoch for training: 0.1777s
+2023-04-21 06:22:21,792 - [INFO] - [Epoch 281 valid]: MRR: Tail : 0.2637, Head : 0.08687, Avg : 0.17528
+2023-04-21 06:22:21,793 - [INFO] - [Epoch 281 valid]: MR: Tail : 370.65, Head : 762.42, Avg : 566.54
+2023-04-21 06:22:21,793 - [INFO] - [Epoch 281]: Training Loss: 0.0016097, Best Valid MRR: 0.17704
+
+
+########
+2023-04-21 06:22:32,509 - [INFO] - [Epoch:282]:  Training Loss:0.001609
+
+Time cost in one epoch for training: 0.1787s
+2023-04-21 06:22:38,155 - [INFO] - [Epoch 282 valid]: MRR: Tail : 0.2642, Head : 0.08697, Avg : 0.17558
+2023-04-21 06:22:38,155 - [INFO] - [Epoch 282 valid]: MR: Tail : 362.41, Head : 756.15, Avg : 559.28
+2023-04-21 06:22:38,155 - [INFO] - [Epoch 282]: Training Loss: 0.001609, Best Valid MRR: 0.17704
+
+
+########
+2023-04-21 06:22:48,748 - [INFO] - [Epoch:283]:  Training Loss:0.001612
+
+Time cost in one epoch for training: 0.1766s
+2023-04-21 06:22:54,314 - [INFO] - [Epoch 283 valid]: MRR: Tail : 0.26423, Head : 0.08712, Avg : 0.17568
+2023-04-21 06:22:54,314 - [INFO] - [Epoch 283 valid]: MR: Tail : 368.65, Head : 764.88, Avg : 566.77
+2023-04-21 06:22:54,314 - [INFO] - [Epoch 283]: Training Loss: 0.0016115, Best Valid MRR: 0.17704
+
+
+########
+2023-04-21 06:23:04,894 - [INFO] - [Epoch:284]:  Training Loss:0.001607
+
+Time cost in one epoch for training: 0.1764s
+2023-04-21 06:23:10,604 - [INFO] - [Epoch 284 valid]: MRR: Tail : 0.26499, Head : 0.08713, Avg : 0.17606
+2023-04-21 06:23:10,604 - [INFO] - [Epoch 284 valid]: MR: Tail : 363.75, Head : 756.02, Avg : 559.88
+2023-04-21 06:23:10,604 - [INFO] - [Epoch 284]: Training Loss: 0.0016065, Best Valid MRR: 0.17704
+
+
+########
+2023-04-21 06:23:21,166 - [INFO] - [Epoch:285]:  Training Loss:0.001609
+
+Time cost in one epoch for training: 0.1761s
+2023-04-21 06:23:27,056 - [INFO] - [Epoch 285 valid]: MRR: Tail : 0.26581, Head : 0.08759, Avg : 0.1767
+2023-04-21 06:23:27,056 - [INFO] - [Epoch 285 valid]: MR: Tail : 365.17, Head : 755.66, Avg : 560.41
+2023-04-21 06:23:27,056 - [INFO] - [Epoch 285]: Training Loss: 0.0016093, Best Valid MRR: 0.17704
+
+
+########
+2023-04-21 06:23:37,625 - [INFO] - [Epoch:286]:  Training Loss:0.001604
+
+Time cost in one epoch for training: 0.1762s
+2023-04-21 06:23:43,192 - [INFO] - [Epoch 286 valid]: MRR: Tail : 0.26516, Head : 0.08742, Avg : 0.17629
+2023-04-21 06:23:43,192 - [INFO] - [Epoch 286 valid]: MR: Tail : 370.12, Head : 766.8, Avg : 568.46
+2023-04-21 06:23:43,192 - [INFO] - [Epoch 286]: Training Loss: 0.0016044, Best Valid MRR: 0.17704
+
+
+########
+2023-04-21 06:23:53,726 - [INFO] - [Epoch:287]:  Training Loss:0.001607
+
+Time cost in one epoch for training: 0.1756s
+2023-04-21 06:23:58,970 - [INFO] - [Epoch 287 valid]: MRR: Tail : 0.26701, Head : 0.08751, Avg : 0.17726
+2023-04-21 06:23:58,970 - [INFO] - [Epoch 287 valid]: MR: Tail : 363.25, Head : 752.98, Avg : 558.11
+2023-04-21 06:23:59,051 - [INFO] - [Epoch 287]: Training Loss: 0.0016072, Best Valid MRR: 0.17726
+
+
+########
+2023-04-21 06:24:08,569 - [INFO] - [Epoch:288]:  Training Loss:0.001604
+
+Time cost in one epoch for training: 0.1587s
+2023-04-21 06:24:14,568 - [INFO] - [Epoch 288 valid]: MRR: Tail : 0.26608, Head : 0.0869, Avg : 0.17649
+2023-04-21 06:24:14,569 - [INFO] - [Epoch 288 valid]: MR: Tail : 362.94, Head : 742.53, Avg : 552.73
+2023-04-21 06:24:14,569 - [INFO] - [Epoch 288]: Training Loss: 0.0016038, Best Valid MRR: 0.17726
+
+
+########
+2023-04-21 06:24:25,222 - [INFO] - [Epoch:289]:  Training Loss:0.001601
+
+Time cost in one epoch for training: 0.1776s
+2023-04-21 06:24:31,027 - [INFO] - [Epoch 289 valid]: MRR: Tail : 0.26538, Head : 0.08719, Avg : 0.17629
+2023-04-21 06:24:31,027 - [INFO] - [Epoch 289 valid]: MR: Tail : 366.26, Head : 746.07, Avg : 556.17
+2023-04-21 06:24:31,028 - [INFO] - [Epoch 289]: Training Loss: 0.0016015, Best Valid MRR: 0.17726
+
+
+########
+2023-04-21 06:24:41,779 - [INFO] - [Epoch:290]:  Training Loss:0.0016
+
+Time cost in one epoch for training: 0.1793s
+2023-04-21 06:24:47,752 - [INFO] - [Epoch 290 valid]: MRR: Tail : 0.26548, Head : 0.08806, Avg : 0.17677
+2023-04-21 06:24:47,753 - [INFO] - [Epoch 290 valid]: MR: Tail : 363.12, Head : 754.33, Avg : 558.73
+2023-04-21 06:24:47,753 - [INFO] - [Epoch 290]: Training Loss: 0.0015997, Best Valid MRR: 0.17726
+
+
+########
+2023-04-21 06:24:58,408 - [INFO] - [Epoch:291]:  Training Loss:0.0016
+
+Time cost in one epoch for training: 0.1777s
+2023-04-21 06:25:04,302 - [INFO] - [Epoch 291 valid]: MRR: Tail : 0.26577, Head : 0.0874, Avg : 0.17659
+2023-04-21 06:25:04,303 - [INFO] - [Epoch 291 valid]: MR: Tail : 370.53, Head : 749.19, Avg : 559.86
+2023-04-21 06:25:04,303 - [INFO] - [Epoch 291]: Training Loss: 0.0015998, Best Valid MRR: 0.17726
+
+
+########
+2023-04-21 06:25:15,120 - [INFO] - [Epoch:292]:  Training Loss:0.0016
+
+Time cost in one epoch for training: 0.1804s
+2023-04-21 06:25:20,895 - [INFO] - [Epoch 292 valid]: MRR: Tail : 0.26541, Head : 0.08777, Avg : 0.17659
+2023-04-21 06:25:20,895 - [INFO] - [Epoch 292 valid]: MR: Tail : 370.33, Head : 754.79, Avg : 562.56
+2023-04-21 06:25:20,895 - [INFO] - [Epoch 292]: Training Loss: 0.0015995, Best Valid MRR: 0.17726
+
+
+########
+2023-04-21 06:25:31,558 - [INFO] - [Epoch:293]:  Training Loss:0.0016
+
+Time cost in one epoch for training: 0.1778s
+2023-04-21 06:25:37,314 - [INFO] - [Epoch 293 valid]: MRR: Tail : 0.26621, Head : 0.08744, Avg : 0.17683
+2023-04-21 06:25:37,315 - [INFO] - [Epoch 293 valid]: MR: Tail : 375.53, Head : 757.99, Avg : 566.76
+2023-04-21 06:25:37,315 - [INFO] - [Epoch 293]: Training Loss: 0.0016001, Best Valid MRR: 0.17726
+
+
+########
+2023-04-21 06:25:48,254 - [INFO] - [Epoch:294]:  Training Loss:0.001599
+
+Time cost in one epoch for training: 0.1824s
+2023-04-21 06:25:54,172 - [INFO] - [Epoch 294 valid]: MRR: Tail : 0.26607, Head : 0.0883, Avg : 0.17719
+2023-04-21 06:25:54,173 - [INFO] - [Epoch 294 valid]: MR: Tail : 362.31, Head : 745.3, Avg : 553.81
+2023-04-21 06:25:54,173 - [INFO] - [Epoch 294]: Training Loss: 0.0015986, Best Valid MRR: 0.17726
+
+
+########
+2023-04-21 06:26:04,840 - [INFO] - [Epoch:295]:  Training Loss:0.001598
+
+Time cost in one epoch for training: 0.1778s
+2023-04-21 06:26:10,780 - [INFO] - [Epoch 295 valid]: MRR: Tail : 0.26618, Head : 0.08843, Avg : 0.17731
+2023-04-21 06:26:10,780 - [INFO] - [Epoch 295 valid]: MR: Tail : 367.94, Head : 760.29, Avg : 564.12
+2023-04-21 06:26:10,861 - [INFO] - [Epoch 295]: Training Loss: 0.0015982, Best Valid MRR: 0.17731
+
+
+########
+2023-04-21 06:26:21,686 - [INFO] - [Epoch:296]:  Training Loss:0.001596
+
+Time cost in one epoch for training: 0.1805s
+2023-04-21 06:26:27,537 - [INFO] - [Epoch 296 valid]: MRR: Tail : 0.26578, Head : 0.08776, Avg : 0.17677
+2023-04-21 06:26:27,537 - [INFO] - [Epoch 296 valid]: MR: Tail : 360.77, Head : 748.35, Avg : 554.56
+2023-04-21 06:26:27,537 - [INFO] - [Epoch 296]: Training Loss: 0.0015957, Best Valid MRR: 0.17731
+
+
+########
+2023-04-21 06:26:38,453 - [INFO] - [Epoch:297]:  Training Loss:0.001598
+
+Time cost in one epoch for training: 0.1820s
+2023-04-21 06:26:44,324 - [INFO] - [Epoch 297 valid]: MRR: Tail : 0.26666, Head : 0.0874, Avg : 0.17703
+2023-04-21 06:26:44,325 - [INFO] - [Epoch 297 valid]: MR: Tail : 370.94, Head : 756.06, Avg : 563.5
+2023-04-21 06:26:44,325 - [INFO] - [Epoch 297]: Training Loss: 0.0015984, Best Valid MRR: 0.17731
+
+
+########
+2023-04-21 06:26:55,154 - [INFO] - [Epoch:298]:  Training Loss:0.001594
+
+Time cost in one epoch for training: 0.1805s
+2023-04-21 06:27:00,968 - [INFO] - [Epoch 298 valid]: MRR: Tail : 0.26723, Head : 0.08839, Avg : 0.17781
+2023-04-21 06:27:00,968 - [INFO] - [Epoch 298 valid]: MR: Tail : 366.93, Head : 761.03, Avg : 563.98
+2023-04-21 06:27:01,047 - [INFO] - [Epoch 298]: Training Loss: 0.0015941, Best Valid MRR: 0.17781
+
+
+########
+2023-04-21 06:27:11,933 - [INFO] - [Epoch:299]:  Training Loss:0.001592
+
+Time cost in one epoch for training: 0.1815s
+2023-04-21 06:27:17,777 - [INFO] - [Epoch 299 valid]: MRR: Tail : 0.26567, Head : 0.08752, Avg : 0.17659
+2023-04-21 06:27:17,778 - [INFO] - [Epoch 299 valid]: MR: Tail : 365.33, Head : 754.77, Avg : 560.05
+2023-04-21 06:27:17,778 - [INFO] - [Epoch 299]: Training Loss: 0.0015917, Best Valid MRR: 0.17781
+
+
+########
+2023-04-21 06:27:28,530 - [INFO] - [Epoch:300]:  Training Loss:0.001595
+
+Time cost in one epoch for training: 0.1793s
+2023-04-21 06:27:34,340 - [INFO] - [Epoch 300 valid]: MRR: Tail : 0.26655, Head : 0.08807, Avg : 0.17731
+2023-04-21 06:27:34,341 - [INFO] - [Epoch 300 valid]: MR: Tail : 363.49, Head : 755.05, Avg : 559.27
+2023-04-21 06:27:34,341 - [INFO] - [Epoch 300]: Training Loss: 0.0015955, Best Valid MRR: 0.17781
+
+
+########
+2023-04-21 06:27:45,089 - [INFO] - [Epoch:301]:  Training Loss:0.001595
+
+Time cost in one epoch for training: 0.1792s
+2023-04-21 06:27:50,891 - [INFO] - [Epoch 301 valid]: MRR: Tail : 0.26693, Head : 0.08748, Avg : 0.17721
+2023-04-21 06:27:50,891 - [INFO] - [Epoch 301 valid]: MR: Tail : 363.05, Head : 756.7, Avg : 559.87
+2023-04-21 06:27:50,891 - [INFO] - [Epoch 301]: Training Loss: 0.0015947, Best Valid MRR: 0.17781
+
+
+########
+2023-04-21 06:28:01,856 - [INFO] - [Epoch:302]:  Training Loss:0.001596
+
+Time cost in one epoch for training: 0.1828s
+2023-04-21 06:28:07,703 - [INFO] - [Epoch 302 valid]: MRR: Tail : 0.26751, Head : 0.08691, Avg : 0.17721
+2023-04-21 06:28:07,703 - [INFO] - [Epoch 302 valid]: MR: Tail : 367.45, Head : 764.11, Avg : 565.78
+2023-04-21 06:28:07,704 - [INFO] - [Epoch 302]: Training Loss: 0.0015956, Best Valid MRR: 0.17781
+
+
+########
+2023-04-21 06:28:18,398 - [INFO] - [Epoch:303]:  Training Loss:0.001594
+
+Time cost in one epoch for training: 0.1783s
+2023-04-21 06:28:24,272 - [INFO] - [Epoch 303 valid]: MRR: Tail : 0.26559, Head : 0.08762, Avg : 0.17661
+2023-04-21 06:28:24,272 - [INFO] - [Epoch 303 valid]: MR: Tail : 366.26, Head : 754.94, Avg : 560.6
+2023-04-21 06:28:24,272 - [INFO] - [Epoch 303]: Training Loss: 0.0015937, Best Valid MRR: 0.17781
+
+
+########
+2023-04-21 06:28:34,912 - [INFO] - [Epoch:304]:  Training Loss:0.001589
+
+Time cost in one epoch for training: 0.1774s
+2023-04-21 06:28:40,870 - [INFO] - [Epoch 304 valid]: MRR: Tail : 0.26607, Head : 0.08803, Avg : 0.17705
+2023-04-21 06:28:40,871 - [INFO] - [Epoch 304 valid]: MR: Tail : 363.84, Head : 751.7, Avg : 557.77
+2023-04-21 06:28:40,871 - [INFO] - [Epoch 304]: Training Loss: 0.0015889, Best Valid MRR: 0.17781
+
+
+########
+2023-04-21 06:28:51,492 - [INFO] - [Epoch:305]:  Training Loss:0.001588
+
+Time cost in one epoch for training: 0.1771s
+2023-04-21 06:28:57,208 - [INFO] - [Epoch 305 valid]: MRR: Tail : 0.26743, Head : 0.08893, Avg : 0.17818
+2023-04-21 06:28:57,209 - [INFO] - [Epoch 305 valid]: MR: Tail : 364.91, Head : 755.07, Avg : 559.99
+2023-04-21 06:28:57,284 - [INFO] - [Epoch 305]: Training Loss: 0.0015879, Best Valid MRR: 0.17818
+
+
+########
+2023-04-21 06:29:08,016 - [INFO] - [Epoch:306]:  Training Loss:0.001588
+
+Time cost in one epoch for training: 0.1789s
+2023-04-21 06:29:13,739 - [INFO] - [Epoch 306 valid]: MRR: Tail : 0.26761, Head : 0.08829, Avg : 0.17795
+2023-04-21 06:29:13,739 - [INFO] - [Epoch 306 valid]: MR: Tail : 364.87, Head : 762.17, Avg : 563.52
+2023-04-21 06:29:13,739 - [INFO] - [Epoch 306]: Training Loss: 0.0015877, Best Valid MRR: 0.17818
+
+
+########
+2023-04-21 06:29:24,434 - [INFO] - [Epoch:307]:  Training Loss:0.001586
+
+Time cost in one epoch for training: 0.1783s
+2023-04-21 06:29:30,135 - [INFO] - [Epoch 307 valid]: MRR: Tail : 0.26748, Head : 0.08882, Avg : 0.17815
+2023-04-21 06:29:30,135 - [INFO] - [Epoch 307 valid]: MR: Tail : 360.96, Head : 761.81, Avg : 561.39
+2023-04-21 06:29:30,135 - [INFO] - [Epoch 307]: Training Loss: 0.0015863, Best Valid MRR: 0.17818
+
+
+########
+2023-04-21 06:29:40,939 - [INFO] - [Epoch:308]:  Training Loss:0.001587
+
+Time cost in one epoch for training: 0.1801s
+2023-04-21 06:29:46,784 - [INFO] - [Epoch 308 valid]: MRR: Tail : 0.26888, Head : 0.08785, Avg : 0.17837
+2023-04-21 06:29:46,785 - [INFO] - [Epoch 308 valid]: MR: Tail : 365.04, Head : 767.59, Avg : 566.31
+2023-04-21 06:29:46,869 - [INFO] - [Epoch 308]: Training Loss: 0.0015872, Best Valid MRR: 0.17837
+
+
+########
+2023-04-21 06:29:57,567 - [INFO] - [Epoch:309]:  Training Loss:0.001588
+
+Time cost in one epoch for training: 0.1784s
+2023-04-21 06:30:03,598 - [INFO] - [Epoch 309 valid]: MRR: Tail : 0.2678, Head : 0.08821, Avg : 0.178
+2023-04-21 06:30:03,598 - [INFO] - [Epoch 309 valid]: MR: Tail : 367.67, Head : 766.58, Avg : 567.12
+2023-04-21 06:30:03,598 - [INFO] - [Epoch 309]: Training Loss: 0.0015879, Best Valid MRR: 0.17837
+
+
+########
+2023-04-21 06:30:14,402 - [INFO] - [Epoch:310]:  Training Loss:0.001588
+
+Time cost in one epoch for training: 0.1801s
+2023-04-21 06:30:20,193 - [INFO] - [Epoch 310 valid]: MRR: Tail : 0.26664, Head : 0.08889, Avg : 0.17776
+2023-04-21 06:30:20,193 - [INFO] - [Epoch 310 valid]: MR: Tail : 372.85, Head : 774.98, Avg : 573.92
+2023-04-21 06:30:20,193 - [INFO] - [Epoch 310]: Training Loss: 0.0015881, Best Valid MRR: 0.17837
+
+
+########
+2023-04-21 06:30:30,984 - [INFO] - [Epoch:311]:  Training Loss:0.001591
+
+Time cost in one epoch for training: 0.1799s
+2023-04-21 06:30:36,939 - [INFO] - [Epoch 311 valid]: MRR: Tail : 0.26802, Head : 0.0881, Avg : 0.17806
+2023-04-21 06:30:36,940 - [INFO] - [Epoch 311 valid]: MR: Tail : 365.54, Head : 763.65, Avg : 564.59
+2023-04-21 06:30:36,940 - [INFO] - [Epoch 311]: Training Loss: 0.0015914, Best Valid MRR: 0.17837
+
+
+########
+2023-04-21 06:30:47,805 - [INFO] - [Epoch:312]:  Training Loss:0.001588
+
+Time cost in one epoch for training: 0.1811s
+2023-04-21 06:30:53,626 - [INFO] - [Epoch 312 valid]: MRR: Tail : 0.268, Head : 0.08886, Avg : 0.17843
+2023-04-21 06:30:53,627 - [INFO] - [Epoch 312 valid]: MR: Tail : 369.23, Head : 763.69, Avg : 566.46
+2023-04-21 06:30:53,708 - [INFO] - [Epoch 312]: Training Loss: 0.001588, Best Valid MRR: 0.17843
+
+
+########
+2023-04-21 06:31:04,618 - [INFO] - [Epoch:313]:  Training Loss:0.001586
+
+Time cost in one epoch for training: 0.1819s
+2023-04-21 06:31:10,404 - [INFO] - [Epoch 313 valid]: MRR: Tail : 0.2682, Head : 0.08876, Avg : 0.17848
+2023-04-21 06:31:10,405 - [INFO] - [Epoch 313 valid]: MR: Tail : 375.36, Head : 769.93, Avg : 572.65
+2023-04-21 06:31:10,491 - [INFO] - [Epoch 313]: Training Loss: 0.0015856, Best Valid MRR: 0.17848
+
+
+########
+2023-04-21 06:31:21,150 - [INFO] - [Epoch:314]:  Training Loss:0.001588
+
+Time cost in one epoch for training: 0.1777s
+2023-04-21 06:31:27,085 - [INFO] - [Epoch 314 valid]: MRR: Tail : 0.26641, Head : 0.08862, Avg : 0.17751
+2023-04-21 06:31:27,086 - [INFO] - [Epoch 314 valid]: MR: Tail : 362.81, Head : 755.56, Avg : 559.18
+2023-04-21 06:31:27,086 - [INFO] - [Epoch 314]: Training Loss: 0.0015875, Best Valid MRR: 0.17848
+
+
+########
+2023-04-21 06:31:37,815 - [INFO] - [Epoch:315]:  Training Loss:0.001587
+
+Time cost in one epoch for training: 0.1789s
+2023-04-21 06:31:43,535 - [INFO] - [Epoch 315 valid]: MRR: Tail : 0.26843, Head : 0.08799, Avg : 0.17821
+2023-04-21 06:31:43,536 - [INFO] - [Epoch 315 valid]: MR: Tail : 370.93, Head : 770.53, Avg : 570.73
+2023-04-21 06:31:43,536 - [INFO] - [Epoch 315]: Training Loss: 0.0015866, Best Valid MRR: 0.17848
+
+
+########
+2023-04-21 06:31:54,297 - [INFO] - [Epoch:316]:  Training Loss:0.001583
+
+Time cost in one epoch for training: 0.1794s
+2023-04-21 06:32:00,068 - [INFO] - [Epoch 316 valid]: MRR: Tail : 0.26825, Head : 0.08811, Avg : 0.17818
+2023-04-21 06:32:00,069 - [INFO] - [Epoch 316 valid]: MR: Tail : 368.19, Head : 754.59, Avg : 561.39
+2023-04-21 06:32:00,069 - [INFO] - [Epoch 316]: Training Loss: 0.001583, Best Valid MRR: 0.17848
+
+
+########
+2023-04-21 06:32:10,871 - [INFO] - [Epoch:317]:  Training Loss:0.00158
+
+Time cost in one epoch for training: 0.1801s
+2023-04-21 06:32:17,004 - [INFO] - [Epoch 317 valid]: MRR: Tail : 0.26918, Head : 0.08848, Avg : 0.17883
+2023-04-21 06:32:17,004 - [INFO] - [Epoch 317 valid]: MR: Tail : 365.88, Head : 749.57, Avg : 557.72
+2023-04-21 06:32:17,146 - [INFO] - [Epoch 317]: Training Loss: 0.0015801, Best Valid MRR: 0.17883
+
+
+########
+2023-04-21 06:32:28,057 - [INFO] - [Epoch:318]:  Training Loss:0.001581
+
+Time cost in one epoch for training: 0.1819s
+2023-04-21 06:32:34,081 - [INFO] - [Epoch 318 valid]: MRR: Tail : 0.26968, Head : 0.08882, Avg : 0.17925
+2023-04-21 06:32:34,082 - [INFO] - [Epoch 318 valid]: MR: Tail : 362.65, Head : 753.7, Avg : 558.17
+2023-04-21 06:32:34,166 - [INFO] - [Epoch 318]: Training Loss: 0.0015812, Best Valid MRR: 0.17925
+
+
+########
+2023-04-21 06:32:44,835 - [INFO] - [Epoch:319]:  Training Loss:0.001584
+
+Time cost in one epoch for training: 0.1779s
+2023-04-21 06:32:50,699 - [INFO] - [Epoch 319 valid]: MRR: Tail : 0.26902, Head : 0.08828, Avg : 0.17865
+2023-04-21 06:32:50,699 - [INFO] - [Epoch 319 valid]: MR: Tail : 363.15, Head : 750.02, Avg : 556.59
+2023-04-21 06:32:50,699 - [INFO] - [Epoch 319]: Training Loss: 0.0015836, Best Valid MRR: 0.17925
+
+
+########
+2023-04-21 06:33:01,576 - [INFO] - [Epoch:320]:  Training Loss:0.001582
+
+Time cost in one epoch for training: 0.1813s
+2023-04-21 06:33:07,497 - [INFO] - [Epoch 320 valid]: MRR: Tail : 0.26644, Head : 0.08887, Avg : 0.17766
+2023-04-21 06:33:07,498 - [INFO] - [Epoch 320 valid]: MR: Tail : 368.81, Head : 772.43, Avg : 570.62
+2023-04-21 06:33:07,498 - [INFO] - [Epoch 320]: Training Loss: 0.0015816, Best Valid MRR: 0.17925
+
+
+########
+2023-04-21 06:33:18,364 - [INFO] - [Epoch:321]:  Training Loss:0.00158
+
+Time cost in one epoch for training: 0.1811s
+2023-04-21 06:33:24,185 - [INFO] - [Epoch 321 valid]: MRR: Tail : 0.26866, Head : 0.08864, Avg : 0.17865
+2023-04-21 06:33:24,185 - [INFO] - [Epoch 321 valid]: MR: Tail : 366.31, Head : 757.64, Avg : 561.97
+2023-04-21 06:33:24,185 - [INFO] - [Epoch 321]: Training Loss: 0.0015802, Best Valid MRR: 0.17925
+
+
+########
+2023-04-21 06:33:35,063 - [INFO] - [Epoch:322]:  Training Loss:0.001579
+
+Time cost in one epoch for training: 0.1814s
+2023-04-21 06:33:41,039 - [INFO] - [Epoch 322 valid]: MRR: Tail : 0.26844, Head : 0.08889, Avg : 0.17866
+2023-04-21 06:33:41,040 - [INFO] - [Epoch 322 valid]: MR: Tail : 364.44, Head : 749.37, Avg : 556.91
+2023-04-21 06:33:41,040 - [INFO] - [Epoch 322]: Training Loss: 0.0015791, Best Valid MRR: 0.17925
+
+
+########
+2023-04-21 06:33:51,754 - [INFO] - [Epoch:323]:  Training Loss:0.001578
+
+Time cost in one epoch for training: 0.1786s
+2023-04-21 06:33:57,718 - [INFO] - [Epoch 323 valid]: MRR: Tail : 0.26776, Head : 0.08837, Avg : 0.17807
+2023-04-21 06:33:57,719 - [INFO] - [Epoch 323 valid]: MR: Tail : 369.96, Head : 758.98, Avg : 564.47
+2023-04-21 06:33:57,719 - [INFO] - [Epoch 323]: Training Loss: 0.001578, Best Valid MRR: 0.17925
+
+
+########
+2023-04-21 06:34:08,437 - [INFO] - [Epoch:324]:  Training Loss:0.001578
+
+Time cost in one epoch for training: 0.1787s
+2023-04-21 06:34:14,266 - [INFO] - [Epoch 324 valid]: MRR: Tail : 0.26728, Head : 0.08886, Avg : 0.17807
+2023-04-21 06:34:14,266 - [INFO] - [Epoch 324 valid]: MR: Tail : 372.69, Head : 764.04, Avg : 568.37
+2023-04-21 06:34:14,266 - [INFO] - [Epoch 324]: Training Loss: 0.0015781, Best Valid MRR: 0.17925
+
+
+########
+2023-04-21 06:34:25,027 - [INFO] - [Epoch:325]:  Training Loss:0.001578
+
+Time cost in one epoch for training: 0.1794s
+2023-04-21 06:34:30,878 - [INFO] - [Epoch 325 valid]: MRR: Tail : 0.2685, Head : 0.08822, Avg : 0.17836
+2023-04-21 06:34:30,878 - [INFO] - [Epoch 325 valid]: MR: Tail : 365.53, Head : 765.04, Avg : 565.28
+2023-04-21 06:34:30,878 - [INFO] - [Epoch 325]: Training Loss: 0.0015776, Best Valid MRR: 0.17925
+
+
+########
+2023-04-21 06:34:41,619 - [INFO] - [Epoch:326]:  Training Loss:0.001575
+
+Time cost in one epoch for training: 0.1791s
+2023-04-21 06:34:47,503 - [INFO] - [Epoch 326 valid]: MRR: Tail : 0.26785, Head : 0.08824, Avg : 0.17805
+2023-04-21 06:34:47,504 - [INFO] - [Epoch 326 valid]: MR: Tail : 364.58, Head : 756.38, Avg : 560.48
+2023-04-21 06:34:47,504 - [INFO] - [Epoch 326]: Training Loss: 0.0015747, Best Valid MRR: 0.17925
+
+
+########
+2023-04-21 06:34:58,209 - [INFO] - [Epoch:327]:  Training Loss:0.001575
+
+Time cost in one epoch for training: 0.1785s
+2023-04-21 06:35:03,936 - [INFO] - [Epoch 327 valid]: MRR: Tail : 0.26804, Head : 0.0879, Avg : 0.17797
+2023-04-21 06:35:03,936 - [INFO] - [Epoch 327 valid]: MR: Tail : 365.87, Head : 754.94, Avg : 560.4
+2023-04-21 06:35:03,936 - [INFO] - [Epoch 327]: Training Loss: 0.0015753, Best Valid MRR: 0.17925
+
+
+########
+2023-04-21 06:35:14,694 - [INFO] - [Epoch:328]:  Training Loss:0.001575
+
+Time cost in one epoch for training: 0.1793s
+2023-04-21 06:35:20,523 - [INFO] - [Epoch 328 valid]: MRR: Tail : 0.26815, Head : 0.08872, Avg : 0.17844
+2023-04-21 06:35:20,523 - [INFO] - [Epoch 328 valid]: MR: Tail : 366.77, Head : 762.49, Avg : 564.63
+2023-04-21 06:35:20,523 - [INFO] - Gamma decay on saturation, updated value of gamma: 10
+2023-04-21 06:35:20,523 - [INFO] - [Epoch 328]: Training Loss: 0.001575, Best Valid MRR: 0.17925
+
+
+########
+2023-04-21 06:35:31,280 - [INFO] - [Epoch:329]:  Training Loss:0.001573
+
+Time cost in one epoch for training: 0.1793s
+2023-04-21 06:35:37,138 - [INFO] - [Epoch 329 valid]: MRR: Tail : 0.26886, Head : 0.08972, Avg : 0.17929
+2023-04-21 06:35:37,138 - [INFO] - [Epoch 329 valid]: MR: Tail : 366.55, Head : 763.19, Avg : 564.87
+2023-04-21 06:35:37,218 - [INFO] - [Epoch 329]: Training Loss: 0.0015729, Best Valid MRR: 0.17929
+
+
+########
+2023-04-21 06:35:48,116 - [INFO] - [Epoch:330]:  Training Loss:0.001576
+
+Time cost in one epoch for training: 0.1817s
+2023-04-21 06:35:53,978 - [INFO] - [Epoch 330 valid]: MRR: Tail : 0.26892, Head : 0.08838, Avg : 0.17865
+2023-04-21 06:35:53,978 - [INFO] - [Epoch 330 valid]: MR: Tail : 367.4, Head : 757.7, Avg : 562.55
+2023-04-21 06:35:53,979 - [INFO] - [Epoch 330]: Training Loss: 0.0015759, Best Valid MRR: 0.17929
+
+
+########
+2023-04-21 06:36:04,811 - [INFO] - [Epoch:331]:  Training Loss:0.001571
+
+Time cost in one epoch for training: 0.1806s
+2023-04-21 06:36:10,601 - [INFO] - [Epoch 331 valid]: MRR: Tail : 0.26864, Head : 0.08822, Avg : 0.17843
+2023-04-21 06:36:10,601 - [INFO] - [Epoch 331 valid]: MR: Tail : 363.55, Head : 755.77, Avg : 559.66
+2023-04-21 06:36:10,601 - [INFO] - [Epoch 331]: Training Loss: 0.0015713, Best Valid MRR: 0.17929
+
+
+########
+2023-04-21 06:36:21,271 - [INFO] - [Epoch:332]:  Training Loss:0.001577
+
+Time cost in one epoch for training: 0.1779s
+2023-04-21 06:36:27,206 - [INFO] - [Epoch 332 valid]: MRR: Tail : 0.26908, Head : 0.08908, Avg : 0.17908
+2023-04-21 06:36:27,206 - [INFO] - [Epoch 332 valid]: MR: Tail : 375.04, Head : 780.34, Avg : 577.69
+2023-04-21 06:36:27,206 - [INFO] - [Epoch 332]: Training Loss: 0.0015771, Best Valid MRR: 0.17929
+
+
+########
+2023-04-21 06:36:38,022 - [INFO] - [Epoch:333]:  Training Loss:0.001574
+
+Time cost in one epoch for training: 0.1803s
+2023-04-21 06:36:43,891 - [INFO] - [Epoch 333 valid]: MRR: Tail : 0.26943, Head : 0.08879, Avg : 0.17911
+2023-04-21 06:36:43,891 - [INFO] - [Epoch 333 valid]: MR: Tail : 366.61, Head : 764.37, Avg : 565.49
+2023-04-21 06:36:43,891 - [INFO] - [Epoch 333]: Training Loss: 0.0015736, Best Valid MRR: 0.17929
+
+
+########
+2023-04-21 06:36:54,742 - [INFO] - [Epoch:334]:  Training Loss:0.001572
+
+Time cost in one epoch for training: 0.1809s
+2023-04-21 06:37:00,643 - [INFO] - [Epoch 334 valid]: MRR: Tail : 0.26874, Head : 0.08934, Avg : 0.17904
+2023-04-21 06:37:00,643 - [INFO] - [Epoch 334 valid]: MR: Tail : 372.8, Head : 761.24, Avg : 567.02
+2023-04-21 06:37:00,644 - [INFO] - [Epoch 334]: Training Loss: 0.0015721, Best Valid MRR: 0.17929
+
+
+########
+2023-04-21 06:37:11,613 - [INFO] - [Epoch:335]:  Training Loss:0.001568
+
+Time cost in one epoch for training: 0.1829s
+2023-04-21 06:37:17,402 - [INFO] - [Epoch 335 valid]: MRR: Tail : 0.26939, Head : 0.08847, Avg : 0.17893
+2023-04-21 06:37:17,403 - [INFO] - [Epoch 335 valid]: MR: Tail : 369.22, Head : 765.87, Avg : 567.55
+2023-04-21 06:37:17,403 - [INFO] - [Epoch 335]: Training Loss: 0.0015682, Best Valid MRR: 0.17929
+
+
+########
+2023-04-21 06:37:28,125 - [INFO] - [Epoch:336]:  Training Loss:0.001571
+
+Time cost in one epoch for training: 0.1788s
+2023-04-21 06:37:33,964 - [INFO] - [Epoch 336 valid]: MRR: Tail : 0.26895, Head : 0.08868, Avg : 0.17882
+2023-04-21 06:37:33,964 - [INFO] - [Epoch 336 valid]: MR: Tail : 366.72, Head : 753.98, Avg : 560.35
+2023-04-21 06:37:33,964 - [INFO] - [Epoch 336]: Training Loss: 0.001571, Best Valid MRR: 0.17929
+
+
+########
+2023-04-21 06:37:44,708 - [INFO] - [Epoch:337]:  Training Loss:0.001567
+
+Time cost in one epoch for training: 0.1791s
+2023-04-21 06:37:50,625 - [INFO] - [Epoch 337 valid]: MRR: Tail : 0.26834, Head : 0.08812, Avg : 0.17823
+2023-04-21 06:37:50,626 - [INFO] - [Epoch 337 valid]: MR: Tail : 369.41, Head : 758.25, Avg : 563.83
+2023-04-21 06:37:50,626 - [INFO] - [Epoch 337]: Training Loss: 0.0015674, Best Valid MRR: 0.17929
+
+
+########
+2023-04-21 06:38:01,416 - [INFO] - [Epoch:338]:  Training Loss:0.001564
+
+Time cost in one epoch for training: 0.1799s
+2023-04-21 06:38:07,292 - [INFO] - [Epoch 338 valid]: MRR: Tail : 0.26997, Head : 0.08922, Avg : 0.1796
+2023-04-21 06:38:07,293 - [INFO] - [Epoch 338 valid]: MR: Tail : 371.05, Head : 757.77, Avg : 564.41
+2023-04-21 06:38:07,377 - [INFO] - [Epoch 338]: Training Loss: 0.0015645, Best Valid MRR: 0.1796
+
+
+########
+2023-04-21 06:38:18,173 - [INFO] - [Epoch:339]:  Training Loss:0.00157
+
+Time cost in one epoch for training: 0.1800s
+2023-04-21 06:38:24,075 - [INFO] - [Epoch 339 valid]: MRR: Tail : 0.26842, Head : 0.08905, Avg : 0.17874
+2023-04-21 06:38:24,075 - [INFO] - [Epoch 339 valid]: MR: Tail : 369.93, Head : 752.89, Avg : 561.41
+2023-04-21 06:38:24,075 - [INFO] - [Epoch 339]: Training Loss: 0.0015696, Best Valid MRR: 0.1796
+
+
+########
+2023-04-21 06:38:34,819 - [INFO] - [Epoch:340]:  Training Loss:0.001569
+
+Time cost in one epoch for training: 0.1791s
+2023-04-21 06:38:40,705 - [INFO] - [Epoch 340 valid]: MRR: Tail : 0.26887, Head : 0.0895, Avg : 0.17919
+2023-04-21 06:38:40,705 - [INFO] - [Epoch 340 valid]: MR: Tail : 377.29, Head : 767.88, Avg : 572.59
+2023-04-21 06:38:40,706 - [INFO] - [Epoch 340]: Training Loss: 0.0015688, Best Valid MRR: 0.1796
+
+
+########
+2023-04-21 06:38:51,505 - [INFO] - [Epoch:341]:  Training Loss:0.001567
+
+Time cost in one epoch for training: 0.1801s
+2023-04-21 06:38:57,395 - [INFO] - [Epoch 341 valid]: MRR: Tail : 0.26954, Head : 0.08911, Avg : 0.17933
+2023-04-21 06:38:57,395 - [INFO] - [Epoch 341 valid]: MR: Tail : 365.6, Head : 758.84, Avg : 562.22
+2023-04-21 06:38:57,395 - [INFO] - [Epoch 341]: Training Loss: 0.0015672, Best Valid MRR: 0.1796
+
+
+########
+2023-04-21 06:39:08,073 - [INFO] - [Epoch:342]:  Training Loss:0.001566
+
+Time cost in one epoch for training: 0.1780s
+2023-04-21 06:39:14,002 - [INFO] - [Epoch 342 valid]: MRR: Tail : 0.26944, Head : 0.08848, Avg : 0.17896
+2023-04-21 06:39:14,003 - [INFO] - [Epoch 342 valid]: MR: Tail : 362.83, Head : 757.5, Avg : 560.17
+2023-04-21 06:39:14,003 - [INFO] - [Epoch 342]: Training Loss: 0.0015659, Best Valid MRR: 0.1796
+
+
+########
+2023-04-21 06:39:24,840 - [INFO] - [Epoch:343]:  Training Loss:0.001566
+
+Time cost in one epoch for training: 0.1807s
+2023-04-21 06:39:30,705 - [INFO] - [Epoch 343 valid]: MRR: Tail : 0.26968, Head : 0.08996, Avg : 0.17982
+2023-04-21 06:39:30,705 - [INFO] - [Epoch 343 valid]: MR: Tail : 374.79, Head : 767.62, Avg : 571.2
+2023-04-21 06:39:30,787 - [INFO] - [Epoch 343]: Training Loss: 0.0015656, Best Valid MRR: 0.17982
+
+
+########
+2023-04-21 06:39:41,710 - [INFO] - [Epoch:344]:  Training Loss:0.001565
+
+Time cost in one epoch for training: 0.1821s
+2023-04-21 06:39:47,540 - [INFO] - [Epoch 344 valid]: MRR: Tail : 0.26819, Head : 0.08933, Avg : 0.17876
+2023-04-21 06:39:47,540 - [INFO] - [Epoch 344 valid]: MR: Tail : 363.88, Head : 767.42, Avg : 565.65
+2023-04-21 06:39:47,540 - [INFO] - [Epoch 344]: Training Loss: 0.0015651, Best Valid MRR: 0.17982
+
+
+########
+2023-04-21 06:39:58,345 - [INFO] - [Epoch:345]:  Training Loss:0.001569
+
+Time cost in one epoch for training: 0.1801s
+2023-04-21 06:40:04,190 - [INFO] - [Epoch 345 valid]: MRR: Tail : 0.26982, Head : 0.08982, Avg : 0.17982
+2023-04-21 06:40:04,190 - [INFO] - [Epoch 345 valid]: MR: Tail : 366.46, Head : 758.93, Avg : 562.7
+2023-04-21 06:40:04,191 - [INFO] - [Epoch 345]: Training Loss: 0.0015687, Best Valid MRR: 0.17982
+
+
+########
+2023-04-21 06:40:15,004 - [INFO] - [Epoch:346]:  Training Loss:0.001566
+
+Time cost in one epoch for training: 0.1803s
+2023-04-21 06:40:20,970 - [INFO] - [Epoch 346 valid]: MRR: Tail : 0.26895, Head : 0.08873, Avg : 0.17884
+2023-04-21 06:40:20,970 - [INFO] - [Epoch 346 valid]: MR: Tail : 372.6, Head : 768.62, Avg : 570.61
+2023-04-21 06:40:20,970 - [INFO] - [Epoch 346]: Training Loss: 0.0015663, Best Valid MRR: 0.17982
+
+
+########
+2023-04-21 06:40:31,637 - [INFO] - [Epoch:347]:  Training Loss:0.001565
+
+Time cost in one epoch for training: 0.1778s
+2023-04-21 06:40:37,355 - [INFO] - [Epoch 347 valid]: MRR: Tail : 0.26916, Head : 0.08961, Avg : 0.17939
+2023-04-21 06:40:37,355 - [INFO] - [Epoch 347 valid]: MR: Tail : 369.51, Head : 759.76, Avg : 564.64
+2023-04-21 06:40:37,355 - [INFO] - [Epoch 347]: Training Loss: 0.0015649, Best Valid MRR: 0.17982
+
+
+########
+2023-04-21 06:40:48,101 - [INFO] - [Epoch:348]:  Training Loss:0.001565
+
+Time cost in one epoch for training: 0.1791s
+2023-04-21 06:40:53,963 - [INFO] - [Epoch 348 valid]: MRR: Tail : 0.26885, Head : 0.08814, Avg : 0.17849
+2023-04-21 06:40:53,963 - [INFO] - [Epoch 348 valid]: MR: Tail : 365.8, Head : 755.35, Avg : 560.57
+2023-04-21 06:40:53,963 - [INFO] - [Epoch 348]: Training Loss: 0.0015651, Best Valid MRR: 0.17982
+
+
+########
+2023-04-21 06:41:04,580 - [INFO] - [Epoch:349]:  Training Loss:0.001564
+
+Time cost in one epoch for training: 0.1770s
+2023-04-21 06:41:10,511 - [INFO] - [Epoch 349 valid]: MRR: Tail : 0.26971, Head : 0.09042, Avg : 0.18006
+2023-04-21 06:41:10,511 - [INFO] - [Epoch 349 valid]: MR: Tail : 368.3, Head : 755.12, Avg : 561.71
+2023-04-21 06:41:10,587 - [INFO] - [Epoch 349]: Training Loss: 0.0015642, Best Valid MRR: 0.18006
+
+
+########
+2023-04-21 06:41:21,386 - [INFO] - [Epoch:350]:  Training Loss:0.001563
+
+Time cost in one epoch for training: 0.1800s
+2023-04-21 06:41:27,194 - [INFO] - [Epoch 350 valid]: MRR: Tail : 0.26925, Head : 0.08906, Avg : 0.17916
+2023-04-21 06:41:27,194 - [INFO] - [Epoch 350 valid]: MR: Tail : 370.08, Head : 760.78, Avg : 565.43
+2023-04-21 06:41:27,194 - [INFO] - [Epoch 350]: Training Loss: 0.0015625, Best Valid MRR: 0.18006
+
+
+########
+2023-04-21 06:41:37,934 - [INFO] - [Epoch:351]:  Training Loss:0.001562
+
+Time cost in one epoch for training: 0.1790s
+2023-04-21 06:41:43,803 - [INFO] - [Epoch 351 valid]: MRR: Tail : 0.26934, Head : 0.08986, Avg : 0.1796
+2023-04-21 06:41:43,803 - [INFO] - [Epoch 351 valid]: MR: Tail : 365.69, Head : 758.23, Avg : 561.96
+2023-04-21 06:41:43,803 - [INFO] - [Epoch 351]: Training Loss: 0.0015618, Best Valid MRR: 0.18006
+
+
+########
+2023-04-21 06:41:54,691 - [INFO] - [Epoch:352]:  Training Loss:0.001564
+
+Time cost in one epoch for training: 0.1815s
+2023-04-21 06:42:00,684 - [INFO] - [Epoch 352 valid]: MRR: Tail : 0.26949, Head : 0.08901, Avg : 0.17925
+2023-04-21 06:42:00,684 - [INFO] - [Epoch 352 valid]: MR: Tail : 367.42, Head : 761.45, Avg : 564.44
+2023-04-21 06:42:00,685 - [INFO] - [Epoch 352]: Training Loss: 0.0015639, Best Valid MRR: 0.18006
+
+
+########
+2023-04-21 06:42:11,603 - [INFO] - [Epoch:353]:  Training Loss:0.001559
+
+Time cost in one epoch for training: 0.1820s
+2023-04-21 06:42:17,741 - [INFO] - [Epoch 353 valid]: MRR: Tail : 0.26822, Head : 0.09024, Avg : 0.17923
+2023-04-21 06:42:17,742 - [INFO] - [Epoch 353 valid]: MR: Tail : 364.6, Head : 764.61, Avg : 564.6
+2023-04-21 06:42:17,742 - [INFO] - [Epoch 353]: Training Loss: 0.0015589, Best Valid MRR: 0.18006
+
+
+########
+2023-04-21 06:42:28,748 - [INFO] - [Epoch:354]:  Training Loss:0.00156
+
+Time cost in one epoch for training: 0.1835s
+2023-04-21 06:42:34,512 - [INFO] - [Epoch 354 valid]: MRR: Tail : 0.26814, Head : 0.08923, Avg : 0.17868
+2023-04-21 06:42:34,513 - [INFO] - [Epoch 354 valid]: MR: Tail : 364.87, Head : 757.37, Avg : 561.12
+2023-04-21 06:42:34,513 - [INFO] - [Epoch 354]: Training Loss: 0.0015595, Best Valid MRR: 0.18006
+
+
+########
+2023-04-21 06:42:45,316 - [INFO] - [Epoch:355]:  Training Loss:0.001566
+
+Time cost in one epoch for training: 0.1801s
+2023-04-21 06:42:51,147 - [INFO] - [Epoch 355 valid]: MRR: Tail : 0.27027, Head : 0.08966, Avg : 0.17996
+2023-04-21 06:42:51,147 - [INFO] - [Epoch 355 valid]: MR: Tail : 369.09, Head : 768.45, Avg : 568.77
+2023-04-21 06:42:51,148 - [INFO] - [Epoch 355]: Training Loss: 0.0015656, Best Valid MRR: 0.18006
+
+
+########
+2023-04-21 06:43:01,782 - [INFO] - [Epoch:356]:  Training Loss:0.001557
+
+Time cost in one epoch for training: 0.1773s
+2023-04-21 06:43:07,571 - [INFO] - [Epoch 356 valid]: MRR: Tail : 0.26998, Head : 0.08997, Avg : 0.17998
+2023-04-21 06:43:07,571 - [INFO] - [Epoch 356 valid]: MR: Tail : 369.39, Head : 768.98, Avg : 569.18
+2023-04-21 06:43:07,571 - [INFO] - [Epoch 356]: Training Loss: 0.0015575, Best Valid MRR: 0.18006
+
+
+########
+2023-04-21 06:43:18,308 - [INFO] - [Epoch:357]:  Training Loss:0.001557
+
+Time cost in one epoch for training: 0.1790s
+2023-04-21 06:43:24,063 - [INFO] - [Epoch 357 valid]: MRR: Tail : 0.26903, Head : 0.08996, Avg : 0.17949
+2023-04-21 06:43:24,064 - [INFO] - [Epoch 357 valid]: MR: Tail : 366.11, Head : 759.05, Avg : 562.58
+2023-04-21 06:43:24,064 - [INFO] - [Epoch 357]: Training Loss: 0.0015572, Best Valid MRR: 0.18006
+
+
+########
+2023-04-21 06:43:34,726 - [INFO] - [Epoch:358]:  Training Loss:0.001557
+
+Time cost in one epoch for training: 0.1778s
+2023-04-21 06:43:40,508 - [INFO] - [Epoch 358 valid]: MRR: Tail : 0.26873, Head : 0.09002, Avg : 0.17937
+2023-04-21 06:43:40,508 - [INFO] - [Epoch 358 valid]: MR: Tail : 367.72, Head : 760.61, Avg : 564.17
+2023-04-21 06:43:40,508 - [INFO] - [Epoch 358]: Training Loss: 0.0015574, Best Valid MRR: 0.18006
+
+
+########
+2023-04-21 06:43:51,277 - [INFO] - [Epoch:359]:  Training Loss:0.001556
+
+Time cost in one epoch for training: 0.1795s
+2023-04-21 06:43:57,143 - [INFO] - [Epoch 359 valid]: MRR: Tail : 0.2698, Head : 0.08973, Avg : 0.17977
+2023-04-21 06:43:57,143 - [INFO] - [Epoch 359 valid]: MR: Tail : 365.56, Head : 756.45, Avg : 561.0
+2023-04-21 06:43:57,143 - [INFO] - Gamma decay on saturation, updated value of gamma: 5
+2023-04-21 06:43:57,143 - [INFO] - [Epoch 359]: Training Loss: 0.0015557, Best Valid MRR: 0.18006
+
+
+########
+2023-04-21 06:44:07,878 - [INFO] - [Epoch:360]:  Training Loss:0.001558
+
+Time cost in one epoch for training: 0.1790s
+2023-04-21 06:44:13,648 - [INFO] - [Epoch 360 valid]: MRR: Tail : 0.27003, Head : 0.08999, Avg : 0.18001
+2023-04-21 06:44:13,648 - [INFO] - [Epoch 360 valid]: MR: Tail : 367.11, Head : 766.89, Avg : 567.0
+2023-04-21 06:44:13,649 - [INFO] - [Epoch 360]: Training Loss: 0.0015582, Best Valid MRR: 0.18006
+
+
+########
+2023-04-21 06:44:24,356 - [INFO] - [Epoch:361]:  Training Loss:0.001556
+
+Time cost in one epoch for training: 0.1785s
+2023-04-21 06:44:30,398 - [INFO] - [Epoch 361 valid]: MRR: Tail : 0.26909, Head : 0.08927, Avg : 0.17918
+2023-04-21 06:44:30,399 - [INFO] - [Epoch 361 valid]: MR: Tail : 370.09, Head : 756.97, Avg : 563.53
+2023-04-21 06:44:30,399 - [INFO] - [Epoch 361]: Training Loss: 0.0015562, Best Valid MRR: 0.18006
+
+
+########
+2023-04-21 06:44:41,259 - [INFO] - [Epoch:362]:  Training Loss:0.001555
+
+Time cost in one epoch for training: 0.1811s
+2023-04-21 06:44:47,114 - [INFO] - [Epoch 362 valid]: MRR: Tail : 0.26985, Head : 0.09016, Avg : 0.18
+2023-04-21 06:44:47,115 - [INFO] - [Epoch 362 valid]: MR: Tail : 372.75, Head : 770.09, Avg : 571.42
+2023-04-21 06:44:47,115 - [INFO] - [Epoch 362]: Training Loss: 0.0015553, Best Valid MRR: 0.18006
+
+
+########
+2023-04-21 06:44:58,028 - [INFO] - [Epoch:363]:  Training Loss:0.001557
+
+Time cost in one epoch for training: 0.1819s
+2023-04-21 06:45:04,026 - [INFO] - [Epoch 363 valid]: MRR: Tail : 0.26864, Head : 0.08936, Avg : 0.179
+2023-04-21 06:45:04,027 - [INFO] - [Epoch 363 valid]: MR: Tail : 377.07, Head : 773.38, Avg : 575.23
+2023-04-21 06:45:04,027 - [INFO] - [Epoch 363]: Training Loss: 0.0015572, Best Valid MRR: 0.18006
+
+
+########
+2023-04-21 06:45:14,801 - [INFO] - [Epoch:364]:  Training Loss:0.001558
+
+Time cost in one epoch for training: 0.1796s
+2023-04-21 06:45:20,693 - [INFO] - [Epoch 364 valid]: MRR: Tail : 0.26896, Head : 0.08947, Avg : 0.17922
+2023-04-21 06:45:20,693 - [INFO] - [Epoch 364 valid]: MR: Tail : 370.53, Head : 771.36, Avg : 570.94
+2023-04-21 06:45:20,693 - [INFO] - [Epoch 364]: Training Loss: 0.0015579, Best Valid MRR: 0.18006
+
+
+########
+2023-04-21 06:45:31,574 - [INFO] - [Epoch:365]:  Training Loss:0.001556
+
+Time cost in one epoch for training: 0.1814s
+2023-04-21 06:45:37,482 - [INFO] - [Epoch 365 valid]: MRR: Tail : 0.26786, Head : 0.08903, Avg : 0.17844
+2023-04-21 06:45:37,483 - [INFO] - [Epoch 365 valid]: MR: Tail : 371.88, Head : 770.67, Avg : 571.27
+2023-04-21 06:45:37,483 - [INFO] - [Epoch 365]: Training Loss: 0.0015559, Best Valid MRR: 0.18006
+
+
+########
+2023-04-21 06:45:48,189 - [INFO] - [Epoch:366]:  Training Loss:0.001556
+
+Time cost in one epoch for training: 0.1785s
+2023-04-21 06:45:54,104 - [INFO] - [Epoch 366 valid]: MRR: Tail : 0.26903, Head : 0.09051, Avg : 0.17977
+2023-04-21 06:45:54,104 - [INFO] - [Epoch 366 valid]: MR: Tail : 368.95, Head : 763.99, Avg : 566.47
+2023-04-21 06:45:54,104 - [INFO] - [Epoch 366]: Training Loss: 0.0015558, Best Valid MRR: 0.18006
+
+
+########
+2023-04-21 06:46:04,769 - [INFO] - [Epoch:367]:  Training Loss:0.001556
+
+Time cost in one epoch for training: 0.1778s
+2023-04-21 06:46:10,580 - [INFO] - [Epoch 367 valid]: MRR: Tail : 0.26676, Head : 0.08986, Avg : 0.17831
+2023-04-21 06:46:10,580 - [INFO] - [Epoch 367 valid]: MR: Tail : 371.92, Head : 776.8, Avg : 574.36
+2023-04-21 06:46:10,580 - [INFO] - [Epoch 367]: Training Loss: 0.0015563, Best Valid MRR: 0.18006
+
+
+########
+2023-04-21 06:46:21,397 - [INFO] - [Epoch:368]:  Training Loss:0.001554
+
+Time cost in one epoch for training: 0.1803s
+2023-04-21 06:46:27,217 - [INFO] - [Epoch 368 valid]: MRR: Tail : 0.26784, Head : 0.08943, Avg : 0.17864
+2023-04-21 06:46:27,217 - [INFO] - [Epoch 368 valid]: MR: Tail : 371.32, Head : 779.94, Avg : 575.63
+2023-04-21 06:46:27,217 - [INFO] - [Epoch 368]: Training Loss: 0.0015542, Best Valid MRR: 0.18006
+
+
+########
+2023-04-21 06:46:38,090 - [INFO] - [Epoch:369]:  Training Loss:0.001553
+
+Time cost in one epoch for training: 0.1813s
+2023-04-21 06:46:44,079 - [INFO] - [Epoch 369 valid]: MRR: Tail : 0.2688, Head : 0.0894, Avg : 0.1791
+2023-04-21 06:46:44,080 - [INFO] - [Epoch 369 valid]: MR: Tail : 368.36, Head : 767.09, Avg : 567.72
+2023-04-21 06:46:44,080 - [INFO] - [Epoch 369]: Training Loss: 0.0015533, Best Valid MRR: 0.18006
+
+
+########
+2023-04-21 06:46:54,728 - [INFO] - [Epoch:370]:  Training Loss:0.001552
+
+Time cost in one epoch for training: 0.1775s
+2023-04-21 06:47:00,579 - [INFO] - [Epoch 370 valid]: MRR: Tail : 0.26862, Head : 0.08899, Avg : 0.17881
+2023-04-21 06:47:00,579 - [INFO] - [Epoch 370 valid]: MR: Tail : 370.99, Head : 769.21, Avg : 570.1
+2023-04-21 06:47:00,579 - [INFO] - [Epoch 370]: Training Loss: 0.0015516, Best Valid MRR: 0.18006
+
+
+########
+2023-04-21 06:47:11,190 - [INFO] - [Epoch:371]:  Training Loss:0.001553
+
+Time cost in one epoch for training: 0.1769s
+2023-04-21 06:47:17,175 - [INFO] - [Epoch 371 valid]: MRR: Tail : 0.27027, Head : 0.09001, Avg : 0.18014
+2023-04-21 06:47:17,176 - [INFO] - [Epoch 371 valid]: MR: Tail : 372.3, Head : 768.43, Avg : 570.37
+2023-04-21 06:47:17,261 - [INFO] - [Epoch 371]: Training Loss: 0.0015528, Best Valid MRR: 0.18014
+
+
+########
+2023-04-21 06:47:28,188 - [INFO] - [Epoch:372]:  Training Loss:0.001552
+
+Time cost in one epoch for training: 0.1822s
+2023-04-21 06:47:34,059 - [INFO] - [Epoch 372 valid]: MRR: Tail : 0.26741, Head : 0.0898, Avg : 0.1786
+2023-04-21 06:47:34,060 - [INFO] - [Epoch 372 valid]: MR: Tail : 369.61, Head : 761.51, Avg : 565.56
+2023-04-21 06:47:34,060 - [INFO] - [Epoch 372]: Training Loss: 0.0015525, Best Valid MRR: 0.18014
+
+
+########
+2023-04-21 06:47:44,796 - [INFO] - [Epoch:373]:  Training Loss:0.001551
+
+Time cost in one epoch for training: 0.1790s
+2023-04-21 06:47:50,483 - [INFO] - [Epoch 373 valid]: MRR: Tail : 0.26834, Head : 0.0893, Avg : 0.17882
+2023-04-21 06:47:50,483 - [INFO] - [Epoch 373 valid]: MR: Tail : 370.79, Head : 763.49, Avg : 567.14
+2023-04-21 06:47:50,483 - [INFO] - [Epoch 373]: Training Loss: 0.001551, Best Valid MRR: 0.18014
+
+
+########
+2023-04-21 06:48:01,186 - [INFO] - [Epoch:374]:  Training Loss:0.001552
+
+Time cost in one epoch for training: 0.1784s
+2023-04-21 06:48:06,924 - [INFO] - [Epoch 374 valid]: MRR: Tail : 0.27009, Head : 0.09032, Avg : 0.18021
+2023-04-21 06:48:06,924 - [INFO] - [Epoch 374 valid]: MR: Tail : 374.48, Head : 766.18, Avg : 570.33
+2023-04-21 06:48:07,003 - [INFO] - [Epoch 374]: Training Loss: 0.001552, Best Valid MRR: 0.18021
+
+
+########
+2023-04-21 06:48:17,785 - [INFO] - [Epoch:375]:  Training Loss:0.001548
+
+Time cost in one epoch for training: 0.1798s
+2023-04-21 06:48:23,969 - [INFO] - [Epoch 375 valid]: MRR: Tail : 0.27016, Head : 0.08975, Avg : 0.17995
+2023-04-21 06:48:23,970 - [INFO] - [Epoch 375 valid]: MR: Tail : 381.1, Head : 774.96, Avg : 578.03
+2023-04-21 06:48:23,970 - [INFO] - [Epoch 375]: Training Loss: 0.0015482, Best Valid MRR: 0.18021
+
+
+########
+2023-04-21 06:48:34,815 - [INFO] - [Epoch:376]:  Training Loss:0.001547
+
+Time cost in one epoch for training: 0.1808s
+2023-04-21 06:48:40,668 - [INFO] - [Epoch 376 valid]: MRR: Tail : 0.26925, Head : 0.08935, Avg : 0.1793
+2023-04-21 06:48:40,669 - [INFO] - [Epoch 376 valid]: MR: Tail : 370.12, Head : 760.64, Avg : 565.38
+2023-04-21 06:48:40,669 - [INFO] - [Epoch 376]: Training Loss: 0.0015467, Best Valid MRR: 0.18021
+
+
+########
+2023-04-21 06:48:51,439 - [INFO] - [Epoch:377]:  Training Loss:0.00155
+
+Time cost in one epoch for training: 0.1796s
+2023-04-21 06:48:57,416 - [INFO] - [Epoch 377 valid]: MRR: Tail : 0.26843, Head : 0.08923, Avg : 0.17883
+2023-04-21 06:48:57,417 - [INFO] - [Epoch 377 valid]: MR: Tail : 371.26, Head : 765.46, Avg : 568.36
+2023-04-21 06:48:57,417 - [INFO] - [Epoch 377]: Training Loss: 0.0015503, Best Valid MRR: 0.18021
+
+
+########
+2023-04-21 06:49:08,195 - [INFO] - [Epoch:378]:  Training Loss:0.001549
+
+Time cost in one epoch for training: 0.1797s
+2023-04-21 06:49:13,941 - [INFO] - [Epoch 378 valid]: MRR: Tail : 0.26945, Head : 0.08896, Avg : 0.17921
+2023-04-21 06:49:13,941 - [INFO] - [Epoch 378 valid]: MR: Tail : 372.88, Head : 766.8, Avg : 569.84
+2023-04-21 06:49:13,941 - [INFO] - [Epoch 378]: Training Loss: 0.0015486, Best Valid MRR: 0.18021
+
+
+########
+2023-04-21 06:49:24,581 - [INFO] - [Epoch:379]:  Training Loss:0.001549
+
+Time cost in one epoch for training: 0.1774s
+2023-04-21 06:49:30,156 - [INFO] - [Epoch 379 valid]: MRR: Tail : 0.26892, Head : 0.08934, Avg : 0.17913
+2023-04-21 06:49:30,156 - [INFO] - [Epoch 379 valid]: MR: Tail : 372.81, Head : 769.55, Avg : 571.18
+2023-04-21 06:49:30,156 - [INFO] - [Epoch 379]: Training Loss: 0.0015487, Best Valid MRR: 0.18021
+
+
+########
+2023-04-21 06:49:40,602 - [INFO] - [Epoch:380]:  Training Loss:0.001545
+
+Time cost in one epoch for training: 0.1742s
+2023-04-21 06:49:45,964 - [INFO] - [Epoch 380 valid]: MRR: Tail : 0.27023, Head : 0.09014, Avg : 0.18018
+2023-04-21 06:49:45,964 - [INFO] - [Epoch 380 valid]: MR: Tail : 374.11, Head : 769.66, Avg : 571.88
+2023-04-21 06:49:45,964 - [INFO] - [Epoch 380]: Training Loss: 0.0015451, Best Valid MRR: 0.18021
+
+
+########
+2023-04-21 06:49:56,464 - [INFO] - [Epoch:381]:  Training Loss:0.001545
+
+Time cost in one epoch for training: 0.1751s
+2023-04-21 06:50:02,265 - [INFO] - [Epoch 381 valid]: MRR: Tail : 0.26926, Head : 0.08929, Avg : 0.17927
+2023-04-21 06:50:02,265 - [INFO] - [Epoch 381 valid]: MR: Tail : 367.25, Head : 756.96, Avg : 562.1
+2023-04-21 06:50:02,266 - [INFO] - [Epoch 381]: Training Loss: 0.001545, Best Valid MRR: 0.18021
+
+
+########
+2023-04-21 06:50:12,857 - [INFO] - [Epoch:382]:  Training Loss:0.001545
+
+Time cost in one epoch for training: 0.1766s
+2023-04-21 06:50:18,837 - [INFO] - [Epoch 382 valid]: MRR: Tail : 0.26999, Head : 0.08959, Avg : 0.17979
+2023-04-21 06:50:18,837 - [INFO] - [Epoch 382 valid]: MR: Tail : 373.54, Head : 756.28, Avg : 564.91
+2023-04-21 06:50:18,837 - [INFO] - [Epoch 382]: Training Loss: 0.0015454, Best Valid MRR: 0.18021
+
+
+########
+2023-04-21 06:50:29,446 - [INFO] - [Epoch:383]:  Training Loss:0.001546
+
+Time cost in one epoch for training: 0.1769s
+2023-04-21 06:50:35,093 - [INFO] - [Epoch 383 valid]: MRR: Tail : 0.26894, Head : 0.08934, Avg : 0.17914
+2023-04-21 06:50:35,093 - [INFO] - [Epoch 383 valid]: MR: Tail : 376.89, Head : 768.44, Avg : 572.67
+2023-04-21 06:50:35,094 - [INFO] - [Epoch 383]: Training Loss: 0.0015463, Best Valid MRR: 0.18021
+
+
+########
+2023-04-21 06:50:45,563 - [INFO] - [Epoch:384]:  Training Loss:0.001546
+
+Time cost in one epoch for training: 0.1746s
+2023-04-21 06:50:51,278 - [INFO] - [Epoch 384 valid]: MRR: Tail : 0.26831, Head : 0.08957, Avg : 0.17894
+2023-04-21 06:50:51,278 - [INFO] - [Epoch 384 valid]: MR: Tail : 373.21, Head : 768.83, Avg : 571.02
+2023-04-21 06:50:51,278 - [INFO] - [Epoch 384]: Training Loss: 0.0015461, Best Valid MRR: 0.18021
+
+
+########
+2023-04-21 06:51:01,992 - [INFO] - [Epoch:385]:  Training Loss:0.001546
+
+Time cost in one epoch for training: 0.1786s
+2023-04-21 06:51:07,516 - [INFO] - [Epoch 385 valid]: MRR: Tail : 0.269, Head : 0.09061, Avg : 0.17981
+2023-04-21 06:51:07,516 - [INFO] - [Epoch 385 valid]: MR: Tail : 374.35, Head : 762.05, Avg : 568.2
+2023-04-21 06:51:07,516 - [INFO] - [Epoch 385]: Training Loss: 0.0015465, Best Valid MRR: 0.18021
+
+
+########
+2023-04-21 06:51:18,161 - [INFO] - [Epoch:386]:  Training Loss:0.001544
+
+Time cost in one epoch for training: 0.1775s
+2023-04-21 06:51:24,082 - [INFO] - [Epoch 386 valid]: MRR: Tail : 0.26893, Head : 0.08959, Avg : 0.17926
+2023-04-21 06:51:24,082 - [INFO] - [Epoch 386 valid]: MR: Tail : 371.95, Head : 757.12, Avg : 564.53
+2023-04-21 06:51:24,082 - [INFO] - [Epoch 386]: Training Loss: 0.001544, Best Valid MRR: 0.18021
+
+
+########
+2023-04-21 06:51:34,669 - [INFO] - [Epoch:387]:  Training Loss:0.001543
+
+Time cost in one epoch for training: 0.1765s
+2023-04-21 06:51:40,548 - [INFO] - [Epoch 387 valid]: MRR: Tail : 0.26961, Head : 0.09049, Avg : 0.18005
+2023-04-21 06:51:40,548 - [INFO] - [Epoch 387 valid]: MR: Tail : 375.99, Head : 772.65, Avg : 574.32
+2023-04-21 06:51:40,548 - [INFO] - [Epoch 387]: Training Loss: 0.0015434, Best Valid MRR: 0.18021
+
+
+########
+2023-04-21 06:51:51,216 - [INFO] - [Epoch:388]:  Training Loss:0.001542
+
+Time cost in one epoch for training: 0.1779s
+2023-04-21 06:51:56,602 - [INFO] - [Epoch 388 valid]: MRR: Tail : 0.2693, Head : 0.08927, Avg : 0.17929
+2023-04-21 06:51:56,602 - [INFO] - [Epoch 388 valid]: MR: Tail : 374.35, Head : 768.06, Avg : 571.21
+2023-04-21 06:51:56,602 - [INFO] - [Epoch 388]: Training Loss: 0.0015416, Best Valid MRR: 0.18021
+
+
+########
+2023-04-21 06:52:07,210 - [INFO] - [Epoch:389]:  Training Loss:0.001543
+
+Time cost in one epoch for training: 0.1769s
+2023-04-21 06:52:12,873 - [INFO] - [Epoch 389 valid]: MRR: Tail : 0.26854, Head : 0.08901, Avg : 0.17878
+2023-04-21 06:52:12,873 - [INFO] - [Epoch 389 valid]: MR: Tail : 372.43, Head : 770.79, Avg : 571.61
+2023-04-21 06:52:12,874 - [INFO] - [Epoch 389]: Training Loss: 0.0015426, Best Valid MRR: 0.18021
+
+
+########
+2023-04-21 06:52:23,437 - [INFO] - [Epoch:390]:  Training Loss:0.001542
+
+Time cost in one epoch for training: 0.1761s
+2023-04-21 06:52:29,024 - [INFO] - [Epoch 390 valid]: MRR: Tail : 0.26839, Head : 0.08841, Avg : 0.1784
+2023-04-21 06:52:29,024 - [INFO] - [Epoch 390 valid]: MR: Tail : 373.56, Head : 781.95, Avg : 577.75
+2023-04-21 06:52:29,024 - [INFO] - [Epoch 390]: Training Loss: 0.0015422, Best Valid MRR: 0.18021
+
+
+########
+2023-04-21 06:52:39,576 - [INFO] - [Epoch:391]:  Training Loss:0.001543
+
+Time cost in one epoch for training: 0.1759s
+2023-04-21 06:52:45,460 - [INFO] - [Epoch 391 valid]: MRR: Tail : 0.26863, Head : 0.08967, Avg : 0.17915
+2023-04-21 06:52:45,460 - [INFO] - [Epoch 391 valid]: MR: Tail : 369.52, Head : 763.1, Avg : 566.31
+2023-04-21 06:52:45,461 - [INFO] - [Epoch 391]: Training Loss: 0.0015427, Best Valid MRR: 0.18021
+
+
+########
+2023-04-21 06:52:55,918 - [INFO] - [Epoch:392]:  Training Loss:0.001541
+
+Time cost in one epoch for training: 0.1744s
+2023-04-21 06:53:01,584 - [INFO] - [Epoch 392 valid]: MRR: Tail : 0.26874, Head : 0.0892, Avg : 0.17897
+2023-04-21 06:53:01,585 - [INFO] - [Epoch 392 valid]: MR: Tail : 375.12, Head : 773.33, Avg : 574.22
+2023-04-21 06:53:01,585 - [INFO] - [Epoch 392]: Training Loss: 0.0015411, Best Valid MRR: 0.18021
+
+
+########
+2023-04-21 06:53:12,197 - [INFO] - [Epoch:393]:  Training Loss:0.00154
+
+Time cost in one epoch for training: 0.1769s
+2023-04-21 06:53:17,804 - [INFO] - [Epoch 393 valid]: MRR: Tail : 0.26915, Head : 0.08926, Avg : 0.17921
+2023-04-21 06:53:17,804 - [INFO] - [Epoch 393 valid]: MR: Tail : 374.99, Head : 770.69, Avg : 572.84
+2023-04-21 06:53:17,804 - [INFO] - [Epoch 393]: Training Loss: 0.0015398, Best Valid MRR: 0.18021
+
+
+########
+2023-04-21 06:53:28,386 - [INFO] - [Epoch:394]:  Training Loss:0.001545
+
+Time cost in one epoch for training: 0.1764s
+2023-04-21 06:53:34,046 - [INFO] - [Epoch 394 valid]: MRR: Tail : 0.2686, Head : 0.08922, Avg : 0.17891
+2023-04-21 06:53:34,047 - [INFO] - [Epoch 394 valid]: MR: Tail : 375.56, Head : 775.35, Avg : 575.45
+2023-04-21 06:53:34,047 - [INFO] - [Epoch 394]: Training Loss: 0.0015453, Best Valid MRR: 0.18021
+
+
+########
+2023-04-21 06:53:44,674 - [INFO] - [Epoch:395]:  Training Loss:0.001541
+
+Time cost in one epoch for training: 0.1772s
+2023-04-21 06:53:50,461 - [INFO] - [Epoch 395 valid]: MRR: Tail : 0.26877, Head : 0.09071, Avg : 0.17974
+2023-04-21 06:53:50,461 - [INFO] - [Epoch 395 valid]: MR: Tail : 373.2, Head : 771.88, Avg : 572.54
+2023-04-21 06:53:50,461 - [INFO] - [Epoch 395]: Training Loss: 0.0015413, Best Valid MRR: 0.18021
+
+
+########
+2023-04-21 06:54:00,929 - [INFO] - [Epoch:396]:  Training Loss:0.001539
+
+Time cost in one epoch for training: 0.1745s
+2023-04-21 06:54:06,882 - [INFO] - [Epoch 396 valid]: MRR: Tail : 0.26888, Head : 0.08994, Avg : 0.17941
+2023-04-21 06:54:06,883 - [INFO] - [Epoch 396 valid]: MR: Tail : 377.61, Head : 771.52, Avg : 574.56
+2023-04-21 06:54:06,883 - [INFO] - [Epoch 396]: Training Loss: 0.0015386, Best Valid MRR: 0.18021
+
+
+########
+2023-04-21 06:54:17,361 - [INFO] - [Epoch:397]:  Training Loss:0.00154
+
+Time cost in one epoch for training: 0.1747s
+2023-04-21 06:54:23,140 - [INFO] - [Epoch 397 valid]: MRR: Tail : 0.26851, Head : 0.09091, Avg : 0.17971
+2023-04-21 06:54:23,140 - [INFO] - [Epoch 397 valid]: MR: Tail : 379.98, Head : 776.28, Avg : 578.13
+2023-04-21 06:54:23,141 - [INFO] - [Epoch 397]: Training Loss: 0.00154, Best Valid MRR: 0.18021
+
+
+########
+2023-04-21 06:54:33,823 - [INFO] - [Epoch:398]:  Training Loss:0.001541
+
+Time cost in one epoch for training: 0.1781s
+2023-04-21 06:54:39,441 - [INFO] - [Epoch 398 valid]: MRR: Tail : 0.26844, Head : 0.08975, Avg : 0.1791
+2023-04-21 06:54:39,441 - [INFO] - [Epoch 398 valid]: MR: Tail : 385.58, Head : 782.74, Avg : 584.16
+2023-04-21 06:54:39,441 - [INFO] - [Epoch 398]: Training Loss: 0.0015406, Best Valid MRR: 0.18021
+
+
+########
+2023-04-21 06:54:49,965 - [INFO] - [Epoch:399]:  Training Loss:0.00154
+
+Time cost in one epoch for training: 0.1755s
+2023-04-21 06:54:55,438 - [INFO] - [Epoch 399 valid]: MRR: Tail : 0.2684, Head : 0.08962, Avg : 0.17901
+2023-04-21 06:54:55,439 - [INFO] - [Epoch 399 valid]: MR: Tail : 370.34, Head : 774.14, Avg : 572.24
+2023-04-21 06:54:55,439 - [INFO] - [Epoch 399]: Training Loss: 0.0015403, Best Valid MRR: 0.18021
+
+
+########
+2023-04-21 06:55:06,049 - [INFO] - [Epoch:400]:  Training Loss:0.001538
+
+Time cost in one epoch for training: 0.1769s
+2023-04-21 06:55:11,704 - [INFO] - [Epoch 400 valid]: MRR: Tail : 0.26985, Head : 0.08995, Avg : 0.1799
+2023-04-21 06:55:11,705 - [INFO] - [Epoch 400 valid]: MR: Tail : 372.64, Head : 776.2, Avg : 574.42
+2023-04-21 06:55:11,705 - [INFO] - Early Stopping!!
+2023-04-21 06:55:11,705 - [INFO] - Loading best model, Evaluating on Test data
+2023-04-21 06:55:18,347 - [INFO] - [Epoch 400 test]: MRR: Tail : 0.26609, Head : 0.09041, Avg : 0.17825
+2023-04-21 06:55:18,347 - [INFO] - [Epoch 400 test]: MR: Tail : 391.2, Head : 768.92, Avg : 580.06
+2023-04-21 06:55:18,347 - [INFO] - [Epoch 400 test]: Hit@1: Tail : 0.18801, Head : 0.04419, Avg : 0.1161
+2023-04-21 06:55:18,347 - [INFO] - [Epoch 400 test]: Hit@2: Tail : 0.24762, Head : 0.0713, Avg : 0.15946
+2023-04-21 06:55:18,347 - [INFO] - [Epoch 400 test]: Hit@3: Tail : 0.28615, Head : 0.09092, Avg : 0.18854
+2023-04-21 06:55:18,347 - [INFO] - [Epoch 400 test]: Hit@4: Tail : 0.31771, Head : 0.10791, Avg : 0.21281
+2023-04-21 06:55:18,347 - [INFO] - [Epoch 400 test]: Hit@5: Tail : 0.34324, Head : 0.12318, Avg : 0.23321
+2023-04-21 06:55:18,347 - [INFO] - [Epoch 400 test]: Hit@6: Tail : 0.36494, Head : 0.13764, Avg : 0.25129
+2023-04-21 06:55:18,347 - [INFO] - [Epoch 400 test]: Hit@7: Tail : 0.3837, Head : 0.15059, Avg : 0.26714
+2023-04-21 06:55:18,347 - [INFO] - [Epoch 400 test]: Hit@8: Tail : 0.39927, Head : 0.16262, Avg : 0.28095
+2023-04-21 06:55:18,347 - [INFO] - [Epoch 400 test]: Hit@9: Tail : 0.41196, Head : 0.17233, Avg : 0.29215
+2023-04-21 06:55:18,347 - [INFO] - [Epoch 400 test]: Hit@10: Tail : 0.4242, Head : 0.18128, Avg : 0.30274
+2023-04-21 06:55:18,348 - [INFO] - Test Avg MRR: 0.17825
