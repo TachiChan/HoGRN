@@ -7,20 +7,15 @@ This is our Pytorch implementation for the paper:
 ## Citation 
 If you want to use our codes and datasets in your research, please cite:
 ```
-@article{HoGRN,
-  author       = {Weijian Chen and
-                  Yixin Cao and
-                  Fuli Feng and
-                  Xiangnan He and
-                  Yongdong Zhang},
-  title        = {Explainable Sparse Knowledge Graph Completion via High-order Graph
-                  Reasoning Network},
-  journal      = {CoRR},
-  volume       = {abs/2207.07503},
-  year         = {2022},
-  url          = {https://doi.org/10.48550/arXiv.2207.07503},
-  doi          = {10.48550/ARXIV.2207.07503}
-}
+@ARTICLE{HoGRN,
+  author={Chen, Weijian and Cao, Yixin and Feng, Fuli and He, Xiangnan and Zhang, Yongdong},
+  journal={IEEE Transactions on Knowledge and Data Engineering}, 
+  title={HoGRN: Explainable Sparse Knowledge Graph Completion via High-Order Graph Reasoning Network}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-13},
+  doi={10.1109/TKDE.2024.3422226}}
 ```
 ## Environment Requirement
 The code has been tested running under Python 3.6.8. The required packages are as follows:
