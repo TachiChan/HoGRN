@@ -12,9 +12,9 @@ If you want to use our codes and datasets in your research, please cite:
   journal={IEEE Transactions on Knowledge and Data Engineering}, 
   title={HoGRN: Explainable Sparse Knowledge Graph Completion via High-Order Graph Reasoning Network}, 
   year={2024},
-  volume={},
-  number={},
-  pages={1-13},
+  volume={36},
+  number={12},
+  pages={8462--8475},
   doi={10.1109/TKDE.2024.3422226}}
 ```
 ## Environment Requirement
